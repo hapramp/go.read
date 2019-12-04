@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="32px" viewBox="0 0 19 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>contest</title>
+    <desc>Created with Sketch.</desc>
+    <g id="go.read-desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home" transform="translate(-417.000000, -24.000000)" fill="#254BBB" fill-rule="nonzero">
+            <g id="menu">
+                <g id="categories" transform="translate(417.000000, 24.000000)">
+                    <g id="Group-5">
+                        <g>
+                            <g id="Group-3">
+                                <g id="Group-4">
+                                    <g id="contest">
+                                        <path d="M9.14285714,18.6666667 C5.53534694,18.6666667 2.6122449,21.652 2.6122449,25.3333333 C2.6122449,29.0146667 5.53534694,32 9.14285714,32 C12.7503673,32 15.6734694,29.0146667 15.6734694,25.3333333 C15.6734694,21.652 12.7503673,18.6666667 9.14285714,18.6666667 Z M11.1595102,28.2813333 L9.14285714,27.1786667 L7.12620408,28.2813333 L7.5284898,25.9813333 L5.87755102,24.3613333 L8.14367347,24.0426667 L9.14285714,21.9413333 L10.1420408,24.044 L12.4081633,24.3626667 L10.7572245,25.9813333 L11.1595102,28.2813333 Z M18.2857143,12 L9.14285714,17.3333333 L0,12 L2.6122449,4 L7.83673469,12 L3.91836735,0 L14.3673469,0 L18.2857143,12 Z" id="Shape"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

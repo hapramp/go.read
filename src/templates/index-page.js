@@ -26,7 +26,7 @@ export const IndexPageTemplate = ({
       >
         <div className="max-w-4xl mx-auto text-white text-center">
           <div className="p-10"></div>
-          <h1 className="text-5xl text-black italic text-white"> {title}</h1>
+          <h1 className="text-5xl font-black italic text-white"> {title}</h1>
           <h5 className="text-lg">{subheading}</h5>
           <div className="p-10"></div>
         </div>

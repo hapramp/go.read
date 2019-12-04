@@ -1,6 +1,10 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
+import playstore from '../img/playstore.svg';
+import contestIcon from '../img/contest.svg';
+import challengesIcon from '../img/challenges.svg';
+import blogIcon from '../img/blog.svg';
+import announcementIcon from '../img/announcement.svg';
 import logo from '../img/logo.svg'
 
 const Navbar = class extends React.Component {
@@ -23,11 +27,11 @@ const Navbar = class extends React.Component {
         // set the class in state for the navbar accordingly
         this.state.active
           ? this.setState({
-              navBarActiveClass: 'is-active',
-            })
+            navBarActiveClass: 'is-active',
+          })
           : this.setState({
-              navBarActiveClass: '',
-            })
+            navBarActiveClass: '',
+          })
       }
     )
   }
@@ -35,57 +39,47 @@ const Navbar = class extends React.Component {
   render() {
     return (
       <nav
-        className="navbar is-transparent"
+        className="pt-4 pb-4 text-gray-70"
         role="navigation"
         aria-label="main-navigation"
       >
-        <div className="container">
-          <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
-              {/* <img src={logo} alt="Kaldi" style={{ width: '88px' }} /> */}
-              <div>Go.READ</div>
+        <div className="container flex justify-between">
+          <div className="">
+            <Link to="/" className="" title="Logo">
+              <div className="font-black italic text-3xl uppercase text-primary">Go.READ</div>
             </Link>
-            {/* Hamburger menu */}
-            <div
-              className={`navbar-burger burger ${this.state.navBarActiveClass}`}
-              data-target="navMenu"
-              onClick={() => this.toggleHamburger()}
-            >
-              <span />
-              <span />
-              <span />
-            </div>
           </div>
-          <div
-            id="navMenu"
-            className={`navbar-menu ${this.state.navBarActiveClass}`}
-          >
-            <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/tags/contest/">
-                Contest
-              </Link>
-              <Link className="navbar-item" to="/tags/challenges/">
-                Challenges
-              </Link>
-              <Link className="navbar-item" to="/tags/blog/">
-                Blog
-              </Link>
-              <Link className="navbar-item" to="/tags/announcement">
-                Announcement
-              </Link>
-            </div>
-            <div className="navbar-end has-text-centered">
-              <a
-                className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="icon">
-                  <img src={github} alt="Github" />
-                </span>
-              </a>
-            </div>
+
+          <div className="flex">
+            <Link className="font-black italic text-xl flex items-center pl-4 pr-4 pl-4 pr-4" to="/tags/contest/">
+              <img className="mr-2" src={contestIcon} alt=""/>
+              Contest
+            </Link>
+            <Link className="font-black italic text-xl flex items-center pl-4 pr-4" to="/tags/challenges/">
+              <img className="mr-2" src={challengesIcon} alt=""/>
+              Challenges
+            </Link>
+            <Link className="font-black italic text-xl flex items-center pl-4 pr-4" to="/tags/blog/">
+              <img className="mr-2" src={blogIcon} alt=""/>
+              Blog
+            </Link>
+            <Link className="font-black italic text-xl flex items-center pl-4 pr-4" to="/tags/announcement">
+              <img className="mr-2" src={announcementIcon} alt=""/>
+              Announcement
+            </Link>
+          </div>
+
+          <div className="">
+            <a
+              className=""
+              href="https://play.google.com/store/apps/details?id=com.go.social.prod"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="">
+                <img src={playstore} alt="Github" />
+              </span>
+            </a>
           </div>
         </div>
       </nav>
