@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: Keep Reading, Keep Going!
 image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+heading: Keep Reading, Keep Going!
+subheading: 'Discover everything GoSocial: Challenges, contests, updates, and inspiration.'
 mainpitch:
   title: Why Kaldi
   description: >
