@@ -5,7 +5,7 @@ import contestIcon from '../img/contest.svg';
 import challengesIcon from '../img/challenges.svg';
 import blogIcon from '../img/blog.svg';
 import announcementIcon from '../img/announcement.svg';
-import logo from '../img/logo.svg'
+// import logo from '../img/logo.svg'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -45,9 +45,9 @@ const Navbar = class extends React.Component {
       >
         <div className="container flex justify-between">
           <div className="">
-            <Link to="/" className="" title="Logo">
+            <a href="https://play.google.com/store/apps/details?id=com.go.social" className="" title="Logo">
               <div className="font-black italic text-3xl uppercase text-primary">Go.READ</div>
-            </Link>
+            </a>
           </div>
 
           <div className="flex">
