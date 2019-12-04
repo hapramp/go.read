@@ -6,7 +6,7 @@ description: >-
   What does it mean to go social for the creators? It means to express without
   boundaries, to live without hesitation, and to create like no one's watching.
 featuredpost: false
-featuredimage: /img/go.social.gif
+featuredimage: /img/photo-1536236485396-10185ca38cb6.jpeg
 tags:
   - gosocial
   - hapramp
