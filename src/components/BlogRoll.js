@@ -2,57 +2,61 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
+import { kebabCase } from 'lodash'
 
 class BlogRoll extends React.Component {
   render() {
     const { data } = this.props
-    const { edges: posts } = data.allMarkdownRemark
+    const { edges: posts } = data.allMarkdownRemark;
 
     return (
-      <div className="columns is-multiline">
-        {posts &&
-          posts.map(({ node: post }) => (
-            <div className="is-parent column is-6" key={post.id}>
-              <article
-                className={`blog-list-item tile is-child box notification ${
-                  post.frontmatter.featuredpost ? 'is-featured' : ''
-                }`}
-              >
-                <header>
-                  {post.frontmatter.featuredimage ? (
-                    <div className="featured-thumbnail">
+      <div className="flex flex-wrap">
+        {posts && posts.map(({ node: post }) => (
+          <div className="w-1/3 pl-4 pr-4 text-gray-70 mb-20" key={post.id}>
+            <article
+              className={`${post.frontmatter.featuredpost
+                ? 'is-featured'
+                : ''}`}>
+              <header>
+                {post.frontmatter.featuredimage
+                  ? (
+                    <div className="">
                       <PreviewCompatibleImage
                         imageInfo={{
                           image: post.frontmatter.featuredimage,
-                          alt: `featured image thumbnail for post ${post.frontmatter.title}`,
-                        }}
-                      />
+                          alt: `featured image thumbnail for post ${post.frontmatter.title}`
+                        }} />
                     </div>
-                  ) : null}
-                  <p className="post-meta">
-                    <Link
-                      className="title has-text-primary is-size-4"
-                      to={post.fields.slug}
-                    >
-                      {post.frontmatter.title}
-                    </Link>
-                    <span> &bull; </span>
-                    <span className="subtitle is-size-5 is-block">
-                      {post.frontmatter.date}
-                    </span>
-                  </p>
-                </header>
-                <p>
-                  {post.excerpt}
-                  <br />
-                  <br />
-                  <Link className="button" to={post.fields.slug}>
-                    Keep Reading →
+                  )
+                  : null}
+                <div className="post-meta mt-3">
+                  <div className="text-sm text-gray-70">
+                    {post.frontmatter.date}
+                  </div>
+
+                  <Link className="text-black font-bold italic text-2xl leading-tight" to={post.fields.slug}>
+                    {post.frontmatter.title}
                   </Link>
-                </p>
-              </article>
-            </div>
-          ))}
+                </div>
+              </header>
+              <p className="mt-2">
+                {post.excerpt}
+                <Link className="text-primary inline-block" to={post.fields.slug}>
+                  Keep Reading →
+                </Link>
+                {post.frontmatter.tags && post.frontmatter.tags.length ? (
+                  <div className="mt-3">
+                    {post.frontmatter.tags.map(tag => (
+                      <span className="mr-2 uppercase text-sm text-gray-70" key={tag + `tag`}>
+                        <Link to={`/tags/${kebabCase(tag)}/`} className="">#{tag}</Link>
+                      </span>
+                    ))}
+                  </div>
+                ) : null}
+              </p>
+            </article>
+          </div>
+        ))}
       </div>
     )
   }
@@ -60,45 +64,12 @@ class BlogRoll extends React.Component {
 
 BlogRoll.propTypes = {
   data: PropTypes.shape({
-    allMarkdownRemark: PropTypes.shape({
-      edges: PropTypes.array,
-    }),
-  }),
+    allMarkdownRemark: PropTypes.shape({ edges: PropTypes.array })
+  })
 }
 
 export default () => (
   <StaticQuery
-    query={graphql`
-      query BlogRollQuery {
-        allMarkdownRemark(
-          sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
-        ) {
-          edges {
-            node {
-              excerpt(pruneLength: 400)
-              id
-              fields {
-                slug
-              }
-              frontmatter {
-                title
-                templateKey
-                date(formatString: "MMMM DD, YYYY")
-                featuredpost
-                featuredimage {
-                  childImageSharp {
-                    fluid(maxWidth: 120, quality: 100) {
-                      ...GatsbyImageSharpFluid
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    `}
-    render={(data, count) => <BlogRoll data={data} count={count} />}
-  />
+    query={graphql` query BlogRollQuery { allMarkdownRemark( sort: { order: DESC, fields: [frontmatter___date] } filter: { frontmatter: { templateKey: { eq: "blog-post" } } } ) { edges { node { excerpt(pruneLength: 100) id fields { slug } frontmatter { title tags templateKey date(formatString: "MMMM DD, YYYY") featuredpost featuredimage { childImageSharp { fluid(maxWidth: 400, quality: 100) { ...GatsbyImageSharpFluid } } } } } } } } `}
+    render={(data, count) => <BlogRoll data={data} count={count} />} />
 )
