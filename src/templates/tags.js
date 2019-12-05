@@ -15,7 +15,6 @@ class TagRoute extends React.Component {
       totalCount === 1 ? '' : 's'
       } tagged with “${tag}”`
 
-    const image = this.props.data.imageSharp.sizes.src;
     return (
       <Layout>
         <section className="section">
@@ -23,7 +22,7 @@ class TagRoute extends React.Component {
           <div
             className="bg-center bg-no-repeat bg-secondary bg-cover"
             style={{
-              backgroundImage: `url(${image})`,
+              backgroundImage: `url('/img/home-jumbotron.jpg')`
             }}
           >
             <div className="max-w-4xl mx-auto text-white text-center py-10 sm:py-20">
@@ -129,11 +128,6 @@ export const tagPageQuery = graphql`
             }
           }
         }
-      }
-    }
-    imageSharp(id: {eq: "fba31229-9ee6-5f59-85cd-1d034e50caa1"}) {
-      sizes(maxWidth: 1440, quality: 100) {
-        src
       }
     }
   }
