@@ -39,46 +39,44 @@ const Navbar = class extends React.Component {
   render() {
     return (
       <nav
-        className="pt-4 pb-4 text-gray-70"
+        className="py-2 sm:py-4 text-gray-70"
         role="navigation"
         aria-label="main-navigation"
       >
-        <div className="container ml-auto mr-auto flex justify-between">
-          <div className="">
+        <div className="max-w-container px-4 xl:px-0 ml-auto mr-auto flex justify-between">
+          <div className="flex items-center">
             <a href="/" className="" title="Logo">
-              <div className="font-black italic text-3xl uppercase text-primary">Go.READ</div>
+              <div className="font-bold sm:font-black italic text-xl md:text-2xl lg:text-3xl uppercase text-primary">Go.READ</div>
             </a>
           </div>
 
-          <div className="flex">
-            <Link className="font-black italic text-xl flex items-center pl-4 pr-4 pl-4 pr-4" to="/tags/contest/">
-              <img className="mr-2" src={contestIcon} alt=""/>
+          <div className="hidden sm:flex">
+            <Link className="font-black italic md:text-lg lg:text-xl flex items-center px-2 md:px-4" to="/tags/contest/">
+              <img className="mr-2 hidden md:block" src={contestIcon} alt=""/>
               Contest
             </Link>
-            <Link className="font-black italic text-xl flex items-center pl-4 pr-4" to="/tags/challenges/">
-              <img className="mr-2" src={challengesIcon} alt=""/>
+            <Link className="font-black italic md:text-lg lg:text-xl flex items-center px-2 md:px-4" to="/tags/challenges/">
+              <img className="mr-2 hidden md:block" src={challengesIcon} alt=""/>
               Challenges
             </Link>
-            <Link className="font-black italic text-xl flex items-center pl-4 pr-4" to="/tags/general/">
-              <img className="mr-2" src={blogIcon} alt=""/>
+            <Link className="font-black italic md:text-lg lg:text-xl flex items-center px-2 md:px-4" to="/tags/general/">
+              <img className="mr-2 hidden md:block" src={blogIcon} alt=""/>
               General
             </Link>
-            <Link className="font-black italic text-xl flex items-center pl-4 pr-4" to="/tags/announcement">
-              <img className="mr-2" src={announcementIcon} alt=""/>
+            <Link className="font-black italic md:text-lg lg:text-xl flex items-center px-2 md:px-4" to="/tags/announcement">
+              <img className="mr-2 hidden md:block" src={announcementIcon} alt=""/>
               Announcement
             </Link>
           </div>
 
-          <div className="">
+          <div className="flex items-center">
             <a
-              className=""
+              className="inline-block"
               href="https://play.google.com/store/apps/details?id=com.go.social.prod"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <span className="">
-                <img src={playstore} alt="Github" />
-              </span>
+              <img className="w-5 sm:w-6 lg:w-8" src={playstore} alt="Github" />
             </a>
           </div>
         </div>

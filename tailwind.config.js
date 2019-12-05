@@ -16,6 +16,9 @@ module.exports = {
       },
       spacing:{
         '68':'17rem'
+      },
+      maxWidth:{
+        container:'1280px'
       }
     }
   },

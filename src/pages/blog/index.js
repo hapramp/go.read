@@ -8,7 +8,7 @@ export default class BlogIndexPage extends React.Component {
     return (
       <Layout>
         <div
-          className="full-width-image-container margin-top-0"
+          className="bg-center bg-no-repeat bg-secondary"
           style={{
             backgroundImage: `url('/img/home-jumbotron.jpg')`,
           }}
