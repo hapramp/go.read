@@ -38,7 +38,7 @@ export const BlogPostTemplate = ({
               : null}
             <h1 className="mt-6 text-4xl font-bold italic text-black">{title}</h1>
             <p className="mt-6 text-xl">{description}</p>
-            <PostContent className="mt-6" content={content} />
+            <PostContent className="mt-6 markdown-body" content={content} />
             <div className="flex items-center mt-10">
               <p className="text-base mr-4">Published on {date}</p>
               |

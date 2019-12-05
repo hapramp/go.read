@@ -43,7 +43,7 @@ const Navbar = class extends React.Component {
         role="navigation"
         aria-label="main-navigation"
       >
-        <div className="container flex justify-between">
+        <div className="container ml-auto mr-auto flex justify-between">
           <div className="">
             <a href="/" className="" title="Logo">
               <div className="font-black italic text-3xl uppercase text-primary">Go.READ</div>

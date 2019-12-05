@@ -2,7 +2,6 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
-import './all.sass';
 import '../styles/global.css';
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
@@ -49,7 +48,7 @@ const TemplateWrapper = ({ children }) => {
           content={`${withPrefix('/')}img/og-image.jpg`}
         />
 
-        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,700i,900i&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,700i,900i|Roboto+Mono&display=swap" rel="stylesheet" />
       </Helmet>
       <Navbar />
       <div>{children}</div>

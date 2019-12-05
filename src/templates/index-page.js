@@ -31,7 +31,7 @@ export const IndexPageTemplate = ({
         </div>
       </div>
       <section className="">
-        <div className="container">
+        <div className="container ml-auto mr-auto">
           <div className="mt-10">
             <h3 className="text-2xl uppercase text-primary font-bold pl-4 pr-4">Latest</h3>
             <div className="mt-10"><BlogRoll /></div>
