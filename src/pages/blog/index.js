@@ -10,25 +10,21 @@ export default class BlogIndexPage extends React.Component {
         <div
           className="full-width-image-container margin-top-0"
           style={{
-            backgroundImage: `url('/img/blog-index.jpg')`,
+            backgroundImage: `url('/img/home-jumbotron.jpg')`,
           }}
         >
-          <h1
-            className="has-text-weight-bold is-size-1"
-            style={{
-              boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
-              backgroundColor: '#f40',
-              color: 'white',
-              padding: '1rem',
-            }}
-          >
-            Latest Stories
-          </h1>
+          <div className="max-w-4xl mx-auto text-white text-center">
+            <div className="p-10"></div>
+            <h1 className="text-5xl font-black italic text-white"> Keep Reading, Keep Going!</h1>
+            <h5 className="text-lg">Discover everything GoSocial: Challenges, contests, updates, and inspiration.</h5>
+            <div className="p-10"></div>
+          </div>
         </div>
-        <section className="section">
-          <div className="container">
-            <div className="content">
-              <BlogRoll />
+        <section>
+          <div className="container mr-auto ml-auto">
+            <div className="mt-10">
+              <h3 className="text-2xl uppercase text-primary font-bold pl-4 pr-4">Latest</h3>
+              <div className="mt-10"><BlogRoll /></div>
             </div>
           </div>
         </section>
