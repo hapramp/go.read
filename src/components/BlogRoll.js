@@ -12,7 +12,7 @@ class BlogRoll extends React.Component {
     return (
       <div className="flex flex-wrap">
         {posts && posts.map(({ node: post }) => (
-          <div className="sm:w-1/2 xl:w-1/3 pl-4 pr-4 text-gray-70 mb-20" key={post.id}>
+          <div className="sm:w-1/2 xl:w-1/3 pl-4 pr-4 text-gray-70 mb-10 sm:mb-20" key={post.id}>
             <article
               className={`${post.frontmatter.featuredpost
                 ? 'is-featured'

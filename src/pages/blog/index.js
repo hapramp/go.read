@@ -19,8 +19,8 @@ export default class BlogIndexPage extends React.Component {
           }}
         >
           <div className="max-w-4xl mx-auto text-white text-center py-10 sm:py-20">
-            <h1 className="text-2xl sm:text-4xl md:text-5xl font-bold sm:font-black italic text-white"> Keep Reading, Keep Going!</h1>
-            <h5 className="mt-2 text-base sm:text-base md:text-lg px-2 leading-tight">Discover everything GoSocial: Challenges, contests, updates, and inspiration.</h5>
+            <h1 className="text-2xl sm:text-4xl md:text-5xl font-black sm:font-black italic text-white"> Keep Reading, Keep Going!</h1>
+            <h5 className="mt-2 text-base sm:text-base md:text-lg px-4 leading-tight">Discover everything GoSocial: Challenges, contests, updates, and inspiration.</h5>
           </div>
         </div>
         <section>
