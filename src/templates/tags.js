@@ -27,7 +27,7 @@ class TagRoute extends React.Component {
             }}
           >
             <div className="max-w-4xl mx-auto text-white text-center py-10 sm:py-20">
-              <h1 className="text-2xl sm:text-4xl md:text-5xl font-black sm:font-black italic text-white"> {tagHeader}</h1>
+              <h1 className="text-2xl sm:text-4xl md:text-5xl font-black sm:font-black italic text-white leading-tight"> {tagHeader}</h1>
               <Link className="inline-block text-sm px-4 py-2 mt-4 uppercase bg-primary text-white rounded" to="/tags/">Browse all tags</Link>
             </div>
           </div>
