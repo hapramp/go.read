@@ -8,13 +8,6 @@ import { kebabCase } from 'lodash'
 class TagRoute extends React.Component {
   render() {
     const posts = this.props.data.allMarkdownRemark.edges
-    const postLinks = posts.map(post => (
-      <li key={post.node.fields.slug}>
-        <Link to={post.node.fields.slug}>
-          <h2 className="is-size-2">{post.node.frontmatter.title}</h2>
-        </Link>
-      </li>
-    ))
     const tag = this.props.pageContext.tag
     const title = this.props.data.site.siteMetadata.title
     const totalCount = this.props.data.allMarkdownRemark.totalCount
@@ -28,27 +21,25 @@ class TagRoute extends React.Component {
         <section className="section">
           <Helmet title={`${tag} | ${title}`} />
           <div
-            className=""
+            className="bg-center bg-no-repeat bg-secondary bg-cover"
             style={{
               backgroundImage: `url(${image})`,
             }}
           >
-            <div className="max-w-4xl mx-auto text-white text-center">
-              <div className="p-10"></div>
-              <h1 className="text-5xl font-bold italic text-white"> {tagHeader}</h1>
+            <div className="max-w-4xl mx-auto text-white text-center py-10 sm:py-20">
+              <h1 className="text-2xl sm:text-4xl md:text-5xl font-black sm:font-black italic text-white"> {tagHeader}</h1>
               <Link className="inline-block text-sm px-4 py-2 mt-4 uppercase bg-primary text-white rounded" to="/tags/">Browse all tags</Link>
-              <div className="p-10"></div>
             </div>
           </div>
           <div className="container ml-auto mr-auto">
             <div className="flex flex-wrap mt-10">
               {posts && posts.map(({ node: post }) => (
-                <div className="w-1/3 pl-4 pr-4 text-gray-70 mb-20" key={post.id}>
+                <div className="sm:block w-full sm:w-1/2 xl:w-1/3 pl-4 pr-4 text-gray-70 mb-10 sm:mb-20" key={post.id}>
                   <article
-                    className={`${post.frontmatter.featuredpost
+                    className={`flex sm:block ${post.frontmatter.featuredpost
                       ? 'is-featured'
                       : ''}`}>
-                    <header>
+                    <header className="w-84 mr-4 sm:mr-0 sm:w-full">
                       {post.frontmatter.featuredimage
                         ? (
                           <div className="">
@@ -60,31 +51,35 @@ class TagRoute extends React.Component {
                           </div>
                         )
                         : null}
-                      <div className="post-meta mt-3">
+
+                    </header>
+                    <div className="blog-card-content">
+                      <div className="post-meta -mt-1 sm:mt-3">
                         <div className="text-sm text-gray-70">
                           {post.frontmatter.date}
                         </div>
 
-                        <Link className="text-black font-bold italic text-2xl leading-tight" to={post.fields.slug}>
+                        <Link className="text-black font-bold italic text-xl sm:text-2xl leading-tight" to={post.fields.slug}>
                           {post.frontmatter.title}
                         </Link>
                       </div>
-                    </header>
-                    <p className="mt-2">
-                      {post.excerpt}
-                      <Link className="text-primary inline-block" to={post.fields.slug}>
-                        Keep Reading →
+                      <p className="mt-2">
+                        {post.excerpt}
+                        <Link className="text-primary inline-block" to={post.fields.slug}>
+                          Keep Reading →
                 </Link>
-                      {post.frontmatter.tags && post.frontmatter.tags.length ? (
-                        <div className="mt-3">
-                          {post.frontmatter.tags.map(tag => (
-                            <span className="mr-2 uppercase text-sm text-gray-70" key={tag + `tag`}>
-                              <Link to={`/tags/${kebabCase(tag)}/`} className="">#{tag}</Link>
-                            </span>
-                          ))}
-                        </div>
-                      ) : null}
-                    </p>
+                        {post.frontmatter.tags && post.frontmatter.tags.length ? (
+                          <div className="mt-3 flex flex-wrap">
+                            {post.frontmatter.tags.map(tag => (
+                              <span className="mr-2 uppercase text-sm text-gray-70" key={tag + `tag`}>
+                                <Link to={`/tags/${kebabCase(tag)}/`} className="">#{tag}</Link>
+                              </span>
+                            ))}
+                          </div>
+                        ) : null}
+                      </p>
+                    </div>
+
                   </article>
                 </div>
               ))}
