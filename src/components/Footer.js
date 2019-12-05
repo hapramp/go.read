@@ -6,7 +6,7 @@ const Footer = class extends React.Component {
       <footer>
         <section className={`form mt-10`}>
           <div
-            className="px-2 max-w-7xl sm:px-3 bg-secondary text-white lg:mx-auto pt-10 pb-10 lg:shadow-2xl text-center relative bg-left-bottom bg-no-repeat">
+            className="max-w-7xl sm:px-3 bg-secondary text-white lg:mx-auto pt-12 pb-16 lg:shadow-2xl text-center relative bg-left-bottom bg-no-repeat">
             <h2 className="font-black text-3xl md:text-4xl italic">Get Going, Keep Going!</h2>
             <p className="text-xl mt-2">We believe the most important thing for creators is to never stop creating.</p>
             <div className="mt-10">
