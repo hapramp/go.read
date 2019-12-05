@@ -36,23 +36,24 @@ export const BlogPostTemplate = ({
                 </div>
               )
               : null}
-            <h1 className="mt-6 text-4xl font-bold italic text-black">{title}</h1>
-            <p className="mt-6 text-xl">{description}</p>
-            <PostContent className="mt-6 markdown-body" content={content} />
-            <div className="flex items-center mt-10 mb-20">
-              <p className="text-base mr-4">Published on {date}</p>
-              |
+            <div className="px-4 lg:px-0">
+              <h1 className="mt-3 sm:mt-6 text-3xl sm:text-4xl font-bold italic text-black leading-tight">{title}</h1>
+              <p className="mt-3 sm:mt-6 text-lg md:text-xl">{description}</p>
+              <PostContent className="mt-6 markdown-body" content={content} />
+              <div className="flex flex-col sm:flex-row items-start sm:items-center mt-6 sm:mt-10 mb-10 sm:mb-16 md:mb-20">
+                <p className="text-base mr-4">Published on {date}</p>
+                <span className="hidden sm:inline">|</span>
               {tags && tags.length ? (
-                <div className="ml-4">
-                  {tags.map(tag => (
-                    <span className="mr-2 uppercase text-base text-gray-70"  key={tag + `tag`}>
-                      <Link className="text-secondary" to={`/tags/${kebabCase(tag)}/`}>#{tag}</Link>
-                    </span>
-                  ))}
-                </div>
-              ) : null}
+                  <div className="mt-1 sm:mt-0 sm:ml-4">
+                    {tags.map(tag => (
+                      <span className="mr-2 uppercase text-base text-gray-70" key={tag + `tag`}>
+                        <Link className="text-secondary" to={`/tags/${kebabCase(tag)}/`}>#{tag}</Link>
+                      </span>
+                    ))}
+                  </div>
+                ) : null}
+              </div>
             </div>
-           
           </div>
         </div>
       </div>

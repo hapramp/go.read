@@ -570,9 +570,9 @@
   color:rgba(0, 0, 0, 0.87);
 }
 
-.markdown-body h1 {
+/* .markdown-body h1 {
   font-size: 2em;
-}
+} */
 
 .markdown-body h1,
 .markdown-body h2 {
@@ -580,11 +580,11 @@
   padding-bottom: .3em;
 }
 
-.markdown-body h2 {
+/* .markdown-body h2 {
   font-size: 1.5em;
-}
+} */
 
-.markdown-body h3 {
+/* .markdown-body h3 {
   font-size: 1.25em;
 }
 
@@ -594,11 +594,11 @@
 
 .markdown-body h5 {
   font-size: .875em;
-}
+} */
 
 .markdown-body h6 {
   color: #6a737d;
-  font-size: .85em;
+  /* font-size: .85em; */
 }
 
 .markdown-body ol,
@@ -967,4 +967,31 @@
 
 .markdown-body .pl-12 {
   padding-left: 128px!important;
+}
+
+@media screen and (max-width:640px) {
+
+  .markdown-body h1 {
+    font-size: 28px;
+  }
+  
+  .markdown-body h2 {
+    font-size: 20px;
+  }
+  
+  .markdown-body h3 {
+    font-size: 18px;
+  }
+
+  .markdown-body h4 {
+    font-size: 16px;
+  }
+  
+  .markdown-body h5 {
+    font-size: 14px;
+  }
+  
+  .markdown-body h6 {
+    font-size: 12px;
+  }
 }

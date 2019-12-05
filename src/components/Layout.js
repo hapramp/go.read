@@ -50,9 +50,11 @@ const TemplateWrapper = ({ children }) => {
 
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,700i,900i|Roboto+Mono&display=swap" rel="stylesheet" />
       </Helmet>
-      <Navbar />
-      <div>{children}</div>
-      <Footer />
+      <div className="flex flex-col min-h-screen">
+        <Navbar />
+        <div className="flex-1">{children}</div>
+        <Footer />
+      </div>
     </div>
   )
 }
