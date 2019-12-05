@@ -47,13 +47,13 @@ class BlogRoll extends React.Component {
                     Keep Reading →
                 </Link>
                   {post.frontmatter.tags && post.frontmatter.tags.length ? (
-                    <div className="mt-3 flex flex-wrap">
+                    <span className="mt-3 flex flex-wrap block">
                       {post.frontmatter.tags.map(tag => (
                         <span className="mr-2 uppercase text-sm text-gray-70" key={tag + `tag`}>
                           <Link to={`/tags/${kebabCase(tag)}/`} className="">#{tag}</Link>
                         </span>
                       ))}
-                    </div>
+                    </span>
                   ) : null}
                 </p>
               </div>
