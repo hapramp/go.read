@@ -15,7 +15,9 @@ module.exports = {
         dulo: '0 0 10px 0 rgba(0,0,0,0.05)'
       },
       spacing:{
-        '68':'17rem'
+        '68':'17rem',
+        '72': '18rem',
+        '84': '21rem',
       },
       maxWidth:{
         container:'1280px'

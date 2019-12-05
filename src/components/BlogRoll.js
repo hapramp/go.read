@@ -12,12 +12,12 @@ class BlogRoll extends React.Component {
     return (
       <div className="flex flex-wrap">
         {posts && posts.map(({ node: post }) => (
-          <div className="sm:w-1/2 xl:w-1/3 pl-4 pr-4 text-gray-70 mb-10 sm:mb-20" key={post.id}>
+          <div className="sm:block w-full sm:w-1/2 xl:w-1/3 pl-4 pr-4 text-gray-70 mb-10 sm:mb-20" key={post.id}>
             <article
-              className={`${post.frontmatter.featuredpost
+              className={`flex sm:block ${post.frontmatter.featuredpost
                 ? 'is-featured'
                 : ''}`}>
-              <header>
+              <header className="w-84 mr-4 sm:mr-0 sm:w-full">
                 {post.frontmatter.featuredimage
                   ? (
                     <div className="">
@@ -29,31 +29,35 @@ class BlogRoll extends React.Component {
                     </div>
                   )
                   : null}
-                <div className="post-meta mt-3">
+
+              </header>
+              <div className="blog-card-content">
+                <div className="post-meta -mt-1 sm:mt-3">
                   <div className="text-sm text-gray-70">
                     {post.frontmatter.date}
                   </div>
 
-                  <Link className="text-black font-bold italic text-2xl leading-tight" to={post.fields.slug}>
+                  <Link className="text-black font-bold italic text-xl sm:text-2xl leading-tight" to={post.fields.slug}>
                     {post.frontmatter.title}
                   </Link>
                 </div>
-              </header>
-              <p className="mt-2">
-                {post.excerpt}
-                <Link className="text-primary inline-block" to={post.fields.slug}>
-                  Keep Reading →
+                <p className="mt-2">
+                  {post.excerpt}
+                  <Link className="text-primary inline-block" to={post.fields.slug}>
+                    Keep Reading →
                 </Link>
-                {post.frontmatter.tags && post.frontmatter.tags.length ? (
-                  <div className="mt-3">
-                    {post.frontmatter.tags.map(tag => (
-                      <span className="mr-2 uppercase text-sm text-gray-70" key={tag + `tag`}>
-                        <Link to={`/tags/${kebabCase(tag)}/`} className="">#{tag}</Link>
-                      </span>
-                    ))}
-                  </div>
-                ) : null}
-              </p>
+                  {post.frontmatter.tags && post.frontmatter.tags.length ? (
+                    <div className="mt-3 flex flex-wrap">
+                      {post.frontmatter.tags.map(tag => (
+                        <span className="mr-2 uppercase text-sm text-gray-70" key={tag + `tag`}>
+                          <Link to={`/tags/${kebabCase(tag)}/`} className="">#{tag}</Link>
+                        </span>
+                      ))}
+                    </div>
+                  ) : null}
+                </p>
+              </div>
+
             </article>
           </div>
         ))}

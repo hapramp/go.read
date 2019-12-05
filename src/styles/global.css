@@ -7,3 +7,7 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+.blog-card-content {
+  word-break: break-word;
+}
