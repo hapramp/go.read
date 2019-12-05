@@ -113,7 +113,7 @@ export const pageQuery = graphql`
         title
         description
         tags
-        featuredimage { childImageSharp { fluid(maxWidth: 1200, quality: 100) { ...GatsbyImageSharpFluid } } }
+        featuredimage { childImageSharp { fluid(maxWidth: 1600, quality: 100) { ...GatsbyImageSharpFluid } } }
       }
     }
   }

@@ -12,6 +12,7 @@ tags:
   - hapramp
   - new-app
   - announcement
+  - tasting
 ---
 Word Cloud
 
