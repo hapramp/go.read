@@ -45,7 +45,7 @@ const Navbar = class extends React.Component {
       >
         <div className="container flex justify-between">
           <div className="">
-            <a href="https://play.google.com/store/apps/details?id=com.go.social" className="" title="Logo">
+            <a href="/" className="" title="Logo">
               <div className="font-black italic text-3xl uppercase text-primary">Go.READ</div>
             </a>
           </div>
