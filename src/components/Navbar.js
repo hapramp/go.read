@@ -45,9 +45,9 @@ const Navbar = class extends React.Component {
       >
         <div className="max-w-container px-4 xl:px-0 ml-auto mr-auto flex justify-between">
           <div className="flex items-center">
-            <a href="/" className="" title="Logo">
+            <Link href="/" className="" title="Logo">
               <div className="font-bold sm:font-black italic text-xl md:text-2xl lg:text-3xl uppercase text-primary">Go.READ</div>
-            </a>
+            </Link>
           </div>
 
           <div className="hidden sm:flex">

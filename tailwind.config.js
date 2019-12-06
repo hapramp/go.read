@@ -11,8 +11,8 @@ module.exports = {
       'gray-245':'#F5F5F5'
     },
     extend: {
-      boxShadow: {
-        dulo: '0 0 10px 0 rgba(0,0,0,0.05)'
+      fontSize: {
+        '7xl':'5rem'
       },
       spacing:{
         '68':'17rem',
@@ -20,6 +20,8 @@ module.exports = {
         '84': '21rem',
       },
       maxWidth:{
+        '9/2xl':'68rem',
+        '7xl':'80rem',
         container:'1280px'
       }
     }
