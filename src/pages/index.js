@@ -1,7 +1,8 @@
 import React from 'react';
 import Home from '../components/Home';
 import { Helmet } from 'react-helmet'
-import { withPrefix } from 'gatsby'
+import { withPrefix } from 'gatsby';
+import '../styles/global.css';
 
 const Index = () => {
   return (
