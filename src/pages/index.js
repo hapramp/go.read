@@ -56,14 +56,13 @@ const Index = () => {
         
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,900i&display=swap" rel="stylesheet" />
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124845462-6" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,700i,900i|Roboto+Mono&display=swap" rel="stylesheet" />
         <script>
          { `window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments)}
           gtag('js', new Date());
 
           gtag('config', 'UA-124845462-6');`}
-  </script>
+        </script>
       </Helmet>
       <Home />
     </div>

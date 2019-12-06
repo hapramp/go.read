@@ -13,7 +13,6 @@ const TemplateWrapper = ({ children }) => {
       <Helmet>
         <html lang="en" />
         <title>{title}</title>
-        <meta name="description" content={description} />
 
         <link
           rel="apple-touch-icon"
@@ -38,17 +37,41 @@ const TemplateWrapper = ({ children }) => {
           href={`${withPrefix('/')}img/safari-pinned-tab.png`}
           color="#ff4400"
         />
-        <meta name="theme-color" content="#264BBB" />
 
-        <meta property="og:type" content="business.business" />
+        <meta name="theme-color" content="#264BBB" />
+        <meta name="description" content={description} />
+        <meta name="image" content="https://getgosocial.ap/img/web_preview.png" />
+
+        <meta itemprop="name" content={title} />
+        <meta itemprop="description" content={description} />
+        <meta name="keywords" content="go, gosocial, challenges, contests, rewards, win, earn, creative, design, photography, writing, learn, hapramp studio, best, social media, community, skills, creative journey, self-challenges" />
+        <meta itemprop="image" content="https://getgosocial.app/img/web_preview.png" />
+
+
         <meta property="og:title" content={title} />
-        <meta property="og:url" content="/" />
-        <meta
-          property="og:image"
-          content={`${withPrefix('/')}img/web_preview.png`}
-        />
+        <meta property="og:description" content={description} />
+        <meta property="og:image" content="https://getgosocial.app/img/web_preview.png" />
+        <meta property="og:url" content="https://getgosocial.app/" />
+        <meta property="og:site_name" content="GoSocial Blog" />
+        <meta property="og:type" content="website" />
+
+        <meta property="twitter:card" content="summary_large_image" /> 
+        <meta property="twitter:site" content="GoSocial Blog" />
+        <meta property="twitter:title" content={title} />
+        <meta property="twitter:description" content={description} />
+        <meta property="twitter:image" content="https://getgosocial.app/img/web_preview.png" />
+
 
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,700i,900i|Roboto+Mono&display=swap" rel="stylesheet" />
+        
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124845462-6" />
+        <script>
+         { `window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-124845462-6');`}
+        </script>
       </Helmet>
       <div className="flex flex-col min-h-screen">
         <Navbar />
