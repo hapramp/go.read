@@ -1,8 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Go.Read - Official Blog of GoSocialApp',
-    description:
-      'Discover new GoSocial contests and challenges. Find inspiration. And learn what’s new on the GoSocial App.',
+    description:'Discover new GoSocial contests and challenges. Find inspiration. And learn what’s new on the GoSocial App.',
     tags:'GoSocial App, Photography, writing, contests, challenges, learn, design, photography contests, writing contests, photography challenge, writing challenge, learn creative writing, creative writing, Get GoSocial, GoSocial Contests, GoSocial Challenge'
     },
   plugins: [
