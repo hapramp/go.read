@@ -74,7 +74,7 @@ const BlogPost = ({ data }) => {
 
   const description = post.frontmatter.description;
   const title = post.frontmatter.title;
-  const image = 'http://getgosocial.app'+post.frontmatter.featuredimage.childImageSharp.fluid.src;
+  const image = 'https://getgosocial.app'+post.frontmatter.featuredimage.childImageSharp.fluid.src;
 
   return (
     <Layout>
