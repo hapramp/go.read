@@ -30,7 +30,7 @@ export default class BlogIndexPage extends React.Component {
                 <div className="flex h-24 overflow-x-auto">
                   <Link className="font-black italic md:text-lg lg:text-xl flex flex-shrink-0 items-center mx-2 bg-white px-4 py-2 rounded h-12 ml-4" to="/tags/contest/">
                     <img className="mr-2" src={contestIcon} alt="" />
-                    Contest
+                    Contests
                   </Link>
                   <Link className="font-black italic md:text-lg lg:text-xl flex flex-shrink-0 items-center mx-2 bg-white px-4 py-2 rounded h-12" to="/tags/challenges/">
                     <img className="mr-2" src={challengesIcon} alt="" />
@@ -42,7 +42,7 @@ export default class BlogIndexPage extends React.Component {
                   </Link>
                   <Link className="font-black italic md:text-lg lg:text-xl flex flex-shrink-0 items-center mx-2 bg-white px-4 py-2 rounded h-12" to="/tags/announcement">
                     <img className="mr-2" src={announcementIcon} alt="" />
-                    Announcement
+                    Announcements
                   </Link>
                   <div className="p-1"></div>
                 </div>

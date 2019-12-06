@@ -74,5 +74,18 @@ module.exports = {
       },
     }, // must be after other CSS plugins
     'gatsby-plugin-netlify', // make sure to keep it last in the array
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Go.Read`,
+        short_name: `Go.Read`,
+        start_url: `/blog`,
+        background_color: `#FFFFFF`,
+        theme_color: `#FF6E2C`,
+        display: `standalone`,
+        icon: `static/img/icon.png`
+      },
+    },
+    'gatsby-plugin-offline'
   ],
 }

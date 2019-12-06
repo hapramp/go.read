@@ -4,9 +4,9 @@ const Footer = class extends React.Component {
   render() {
     return (
       <footer>
-        <section className={`form sm:mt-10`}>
+        <section className={`form sm:mt-10 bg-secondary`}>
           <div
-            className="max-w-7xl sm:px-3 bg-secondary text-white lg:mx-auto pt-8 pb-12 sm:pt-12 sm:pb-16 lg:shadow-2xl text-center relative bg-left-bottom bg-no-repeat">
+            className="max-w-7xl sm:px-3 text-white lg:mx-auto pt-8 pb-12 sm:pt-12 sm:pb-16 text-center relative bg-left-bottom bg-no-repeat">
             <h2 className="font-black text-2xl sm:text-4xl md:text-5xl italic">Get Going, Keep Going!</h2>
             <p className="text-base sm:text-base md:text-lg mt-2 px-4">We believe the most important thing for creators is to never stop creating.</p>
             <div className="sm:mt-10">
