@@ -70,7 +70,11 @@ BlogPostTemplate.propTypes = {
 }
 
 const BlogPost = ({ data }) => {
-  const { markdownRemark: post } = data
+  const { markdownRemark: post } = data;
+
+  const description = post.frontmatter.description;
+  const title = post.frontmatter.title;
+  const image = 'http://getgosocial.app'+post.frontmatter.featuredimage.childImageSharp.fluid.src;
 
   return (
     <Layout>
@@ -81,12 +85,31 @@ const BlogPost = ({ data }) => {
         featuredimage={post.frontmatter.featuredimage}
         date={post.frontmatter.date}
         helmet={
-          <Helmet titleTemplate="%s | Blog">
-            <title>{`${post.frontmatter.title}`}</title>
+          <Helmet titleTemplate="%s | GoSocial Blog">
+            <title>{`${title}`}</title>
             <meta
               name="description"
-              content={`${post.frontmatter.description}`}
+              content={`${description}`}
             />
+            <meta name="image" content={image} />
+
+            <meta itemprop="name" content={title} />
+            <meta itemprop="description" content={description} />
+            <meta itemprop="image" content={image} />
+
+            <meta property="og:title" content={title} />
+            <meta property="og:description" content={description} />
+            <meta property="og:image" content={image} />
+            <meta property="og:url" content="https://getgosocial.app/blog" />
+            <meta property="og:site_name" content="GoSocial Blog" />
+            <meta property="og:type" content="website" />
+
+            <meta property="twitter:card" content="summary_large_image" /> 
+            <meta property="twitter:site" content="GoSocial Blog" />
+            <meta property="twitter:title" content={title} />
+            <meta property="twitter:description" content={description} />
+            <meta property="twitter:image" content={image} />
+
           </Helmet>
         }
         tags={post.frontmatter.tags}

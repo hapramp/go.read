@@ -7,7 +7,7 @@ import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
 
 const TemplateWrapper = ({ children }) => {
-  const { title, description } = useSiteMetadata()
+  const { title, description, tags } = useSiteMetadata()
   return (
     <div className="antialiased">
       <Helmet>
@@ -40,11 +40,11 @@ const TemplateWrapper = ({ children }) => {
 
         <meta name="theme-color" content="#264BBB" />
         <meta name="description" content={description} />
-        <meta name="image" content="https://getgosocial.ap/img/web_preview.png" />
+        <meta name="image" content="https://getgosocial.app/img/web_preview.png" />
 
         <meta itemprop="name" content={title} />
         <meta itemprop="description" content={description} />
-        <meta name="keywords" content="go, gosocial, challenges, contests, rewards, win, earn, creative, design, photography, writing, learn, hapramp studio, best, social media, community, skills, creative journey, self-challenges" />
+        <meta name="keywords" content={tags} />
         <meta itemprop="image" content="https://getgosocial.app/img/web_preview.png" />
 
 
