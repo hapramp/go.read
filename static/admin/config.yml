@@ -12,6 +12,7 @@ media_folder: static/img
 public_folder: /img
 logo_url: /img/cms_logo.svg
 display_url: https://getgosocial.app/blog
+publish_mode: editorial_workflow
 
 collections:
   - name: "blogs"
