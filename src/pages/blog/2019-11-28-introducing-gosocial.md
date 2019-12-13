@@ -18,7 +18,7 @@ GoSocial is a comprehensive stage for creators who love to learn new things. We 
 
 ## GoSocial - Where Creativity Matters
 
-The GoSocial App has divisions for each creative skill. These divisions come under the ‘Go’ flagship of GoSocial. GoDesign, GoPhotography, GoTravel, and GoArt are the prominent sections among many to come. The GoSocial team and experts create and update Challenges, contests, and resources in each section every week. 
+The GoSocial App has divisions for each creative skill. These divisions come under the ‘Go’ flagship of GoSocial. GoDesign, GoPhotography, GoTravel, and GoArt are the prominent sections among many to come. The GoSocial team and experts create and update challenges, contests, and resources in each section every week. 
 
 To bring these challenges on the App, GoSocial taps into the heads of professional creators. We engage photographers, designers, writers, and artists, to bring you the smartest takes on topics that matter. So whatever your interest is, you can always find fresh thinking and unique perspectives.
 
@@ -26,7 +26,7 @@ To bring these challenges on the App, GoSocial taps into the heads of profession
 
 GoSocial has select unique features that will help you to keep learning and exhibiting your creativity. Some of the main features include:
 
-**Challenges:**
+<h3>Challenges</h3>
 
 In each section, there are a set of challenges. Challenges are to help you level up your skills and build your profile (portfolio). For example, basic photography challenges are rule-of-thirds, lights, colors, and identifying subjects-foreground-background. We include curated resources and examples to take you through these challenges.
 
