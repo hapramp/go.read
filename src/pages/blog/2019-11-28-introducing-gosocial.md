@@ -64,7 +64,7 @@ Your “Like” on GoSocial has a value equal to some digital coins. These digit
 
 In short, the more you engage and contribute on the platform the more influence you will have over the rewards getting distributed.
 
-**Leaderboard**
+**Leaderboard:**
 
 This section contains a list of all leaders and past winners and also shows your rank. Winners and leaders are shown in two ways - the first one is based on the weekly rankings and the second on overall rankings. 
 
