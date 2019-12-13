@@ -3,8 +3,10 @@ templateKey: blog-post
 title: Introducing GoSocial - A Place to Showcase Your Creativity
 date: 2019-11-28T07:36:59.262Z
 description: >-
-  What does it mean to Go Social for the creators? It means to express without
-  boundaries, to live without hesitation, and to create like no one's watching.
+  Introducing GoSocial, a platform for creators. Where you show your creativity,
+  skill-up and earn rewards on the Go! On GoSocial, you challenge yourself,
+  compete with others, and learn new things. And the rewards are a by-product to
+  keep you going.
 featuredpost: true
 featuredimage: /img/cover.jpg
 tags:
@@ -14,12 +16,6 @@ tags:
   - announcement
   - gosocialapp
 ---
-Introducing GoSocial, a platform for creators. Where you show your creativity, skill-up and earn rewards on the Go! On GoSocial, you challenge yourself, compete with others, and learn new things. And the rewards are a by-product to keep you going.
-
-
-
-## In Other Words,
-
 GoSocial is a comprehensive stage for creators who love to learn new things. We are building it for all the independent and budding creators to explore their hobby and share their work. On this platform, you can get smarter about what matters to you. Be it photography, writing, designing, art, traveling or any other skill. You can learn by taking part in the challenges. By competing in the contests. And by collaborating with other users.
 
 ## GoSocial - Where Creativity Matters
@@ -28,7 +24,7 @@ The GoSocial App has divisions for each creative skill. These divisions come und
 
 To bring these challenges on the App, GoSocial taps into the heads of professional creators. We engage photographers, designers, writers, and artists, to bring you the smartest takes on topics that matter. So whatever your interest is, you can always find fresh thinking and unique perspectives.
 
-## GoSocial’s Unique Feature 
+## GoSocial’s Unique Feature
 
 GoSocial has select unique features that will help you to keep learning and exhibiting your creativity. Some of the main features include:
 
