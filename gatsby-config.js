@@ -81,9 +81,10 @@ module.exports = {
         short_name: `Go.Read`,
         start_url: `/blog`,
         background_color: `#FFFFFF`,
-        theme_color: `#FF6E2C`,
+        theme_color: `#254BBB`,
         display: `standalone`,
-        icon: `static/img/icon.png`
+        icon: `static/img/icon.png`,
+        scope: "/blog"
       },
     },
     'gatsby-plugin-offline'
