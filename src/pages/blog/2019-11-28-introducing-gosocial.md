@@ -1,121 +1,65 @@
 ---
 templateKey: blog-post
-title: Introducing GoSocial
+title: Introducing GoSocial - A Place to Showcase Your Creativity
 date: 2019-11-28T07:36:59.262Z
 description: >-
-  What does it mean to go social for the creators? It means to express without
+  What does it mean to Go Social for the creators? It means to express without
   boundaries, to live without hesitation, and to create like no one's watching.
 featuredpost: false
-featuredimage: /img/photo-1536236485396-10185ca38cb6.jpeg
+featuredimage: /img/cover.jpg
 tags:
   - gosocial
   - hapramp
   - new-app
   - announcement
-  - tasting
+  - gosocialapp
 ---
-Word Cloud
+Introducing GoSocial, a platform for creators. Where you show your creativity, skill-up and earn rewards on the Go! On GoSocial, you challenge yourself, compete with others, and learn new things. And the rewards are a by-product to keep you going.
 
 
 
-Challenge yourself- compete- fun- learn- earn- get rewarded- simple-creative engagement- 
+## In Other Words,
 
+GoSocial is a comprehensive stage for creators who love to learn new things. We are building it for all the independent and budding creators to explore their hobby and share their work. On this platform, you can get smarter about what matters to you. Be it photography, writing, designing, art, traveling or any other skill. You can learn by taking part in the challenges. By competing in the contests. And by collaborating with other users.
 
+## GoSocial - Where Creativity Matters
 
-Things we can write about:
+The GoSocial App has divisions for each creative skill. These divisions come under the ‘Go’ flagship of GoSocial. GoDesign, GoPhotography, GoTravel, and GoArt are the prominent sections among many to come. The GoSocial team and experts create and update Challenges, contests, and resources in each section every week. 
 
+To bring these challenges on the App, GoSocial taps into the heads of professional creators. We engage photographers, designers, writers, and artists, to bring you the smartest takes on topics that matter. So whatever your interest is, you can always find fresh thinking and unique perspectives.
 
+## GoSocial’s Unique Feature 
 
-The idea behind GoSocial
+GoSocial has select unique features that will help you to keep learning and exhibiting your creativity. Some of the main features include:
 
-	
+**Challenges:**
 
-	
+In each section, there are a set of challenges. Challenges are to help you level up your skills and build your profile (portfolio). For example, basic photography challenges are rule-of-thirds, lights, colors, and identifying subjects-foreground-background. We include curated resources and examples to take you through these challenges.
 
+Professionals create challenges for GoSocial. And completing them will make you learn and level up in that particular skill. You also earn points when you finish a challenge. 
 
+**Contests:**
 
-What is GoSocial?
+On GoSocial, you will find new, engaging and exciting contests every week. You can take part in these contests and earn rewards. We occasionally run contests to support social causes too. For instance, we were planting a tree for each contest entry in the contests ran in December 2019.
 
+**User reputation:**
 
+User reputation is a key feature in GoSocial. Your reputation depicts your influence on the platform. On GoSocial, every user has a digital reputation score. A higher reputation score means a higher influence on the platform. Your Digital Reputation score depends on how often you post, engage, and the engagement your posts get.
 
-GoSocial is an experience for {creative enthusiasts} to engage in {creative skills} they {like} by taking professionally carved challenges, participating in contests while learning, collaborating and getting rewarded on the way//    -need to play with the elements 
+**Like Rewards:**
 
+Your “Like” on GoSocial has a value equal to some digital coins. These digital coins are native to the GoSocial platform. The value of your “Like” depends on your Reputation on the GoSocial app. The higher your reputation is, the higher your “Like” value. You’ll earn some digital coins based on the number of likes you get and from which user you get them. Your Likes on other's posts will give them digital coins as well. 
 
+In short, the more you engage and contribute on the platform the more influence you will have over the rewards getting distributed.
 
-About various creative skills and the fragmentation- GoDesign, GoPhotography, GoTravel etc.
+**Leaderboard**
 
-	
+This section contains a list of all leaders and past winners and also shows your rank. Winners and leaders are shown in two ways - the first one is based on the weekly rankings and the second on overall rankings. 
 
-The GoSocial App has divisions for each creative skill. These divisions come under the ‘Go’ flagship of GoSocial. GoDesign, GoPhotography and GoArt prominent sections among others. Challenges, contests and resources in each section is specially designed by the GoSocial team and experts and is updated weekly. 
+Rankings keep on updating depending upon your activity, participation & achievement in contests & challenges. The more the number of your coins you have higher will be your ranking.
 
+## Whether GoSocial is for beginners or professionals?
 
+The platform is the stage for both whether you are a beginner or pro. If you are a beginner, you will learn by taking challenges, participating in the contests, and the feedback from the community. 
 
-
-
-Features:
-
-Challenges
-
-	
-
-In each section there are a set of challenges that have been designed to help you level up our skills, engage with others and build your profile(portfolio). For example the photography section consists of challenges on the rule of third, lights, streets, colours, Identifying subjects, foreground and background. To take you through these challenges, curated resources and examples are included along with the opportunity to engage with the community. 
-
-
-
-These challenges are professionally carved for you and completing them will make you learn and level up in any skill. You also earn points when you complete a challenge which gives you an opportunity to get rewarded. 
-
-
-
-<<Include example challenges>>
-
-
-
-
-
-
-
-Contests
-
-	
-
-Our team creates fun, engaging and exciting contests for you to participate on the go and earn rewards. There are new contests every week. 
-
-
-
-We also run contests to support special causes, in our launch campaign which is currently live where we are planting a tree for each contest entry. 
-
-
-
-User reputation:
-
-	
-
-Your reputation depicts your influence on the platform 
-
-
-
-On GoSocial, every user has a digital reputation score. The Digital Reputation score depends on how often you create, engage with fellow creators, and the engagement you get on your posts.
-
-
-
-Like Rewards:
-
-
-
-Your “Like” on GoSocial has a value equivalent to some digital coins. These digital coins are native to the GoSocial platform. The value of your “Like” depends on your Reputation on the GoSocial app. The higher your reputation is, the higher your “Like” value. You’ll earn some digital coins based on the number of likes you get and from which user you get them. Your Likes on other posts will give them digital coins as well. 
-
-
-
-In short, the more you engage and contribute on the platform the more influence you will have over the rewards getting distribute
-
-
-
-Extend the challenge feature and talk about learning bit and the way challenges are designed
-
-Research Plan to Design the GoSocial Experience- We can talk about our ideas to explore all creative fields in depth and  platform based on the insights
-
-About Rewards- Why Rewards? What to expect?
-
-Leaderboard
-
-Conclude- how it can impact our target audience and how they can get Involved
+For professionals, we have a special program to create challenges under your own name. Such that, a set of these challenges can help people learn and improve on their own. Learn more about it, from here: _Host your own challenges on GoSocial._
