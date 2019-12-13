@@ -5,7 +5,7 @@ date: 2019-11-28T07:36:59.262Z
 description: >-
   What does it mean to Go Social for the creators? It means to express without
   boundaries, to live without hesitation, and to create like no one's watching.
-featuredpost: false
+featuredpost: true
 featuredimage: /img/cover.jpg
 tags:
   - gosocial
