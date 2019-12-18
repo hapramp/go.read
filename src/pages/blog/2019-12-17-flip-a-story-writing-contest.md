@@ -20,7 +20,7 @@ We are pledging to plant a tree for each participating entry. Spread the word.
 
 <center>
 
-![Flip Sample](/img/screen-shot-2019-12-17-at-5.25.11-pm.png "Flip Sample")
+![Flip on GoSocial App](/img/screen-shot-2019-12-17-at-5.25.11-pm.png "Flip Sample")
 
 </center>
 
@@ -33,7 +33,5 @@ We are pledging to plant a tree for each participating entry. Spread the word.
 **Rank 2**: GoSocial Swag Kit (T-shirt, stickers, badges, and bottle)
 
 **Rank 3**: GoSocial Swag Kit (T-shirt, stickers, and badges)
-
-
 
 [Participate in the ongoing contests on GoSocial](https://play.google.com/store/apps/details?id=com.go.social.prod)!
