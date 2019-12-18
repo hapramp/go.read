@@ -6,10 +6,10 @@ description: GoSocial Poetry Contest
 featuredpost: true
 featuredimage: /img/6.png
 tags:
-  - contest
-  - haiku
-  - writing
-  - poetry
+  - Contest
+  - Haiku
+  - Writing
+  - Poetry
 ---
 Haiku is a Japanese form of poetry. It is popular for its simplicity and brevity. The structure of Haiku is three lines with 5-7-5 number of words in each.  
 
