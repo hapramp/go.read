@@ -25,5 +25,3 @@ In the middle of hustling and bustling, chaos, and irregularities, the streets t
 
 
 [Participate in the ongoing contests on GoSocial!](https://play.google.com/store/apps/details?id=com.go.social.prod)
-
-****
