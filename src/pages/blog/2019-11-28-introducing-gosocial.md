@@ -10,9 +10,9 @@ description: >-
 featuredpost: true
 featuredimage: /img/cover.jpg
 tags:
-  - gosocial
-  - hapramp
-  - announcement
+  - GoSocial
+  - Hapramp
+  - Announcement
 ---
 GoSocial is a comprehensive stage for creators who love to learn new things. We are building it for all the independent and budding creators to explore their hobby and share their work. On this platform, you can get smarter about what matters to you. Be it photography, writing, designing, art, traveling or any other skill. You can learn by taking part in the challenges. By competing in the contests. And by collaborating with other users.
 
@@ -81,3 +81,8 @@ Rankings keep on updating depending upon your activity, participation & achievem
 The platform is the stage for both whether you are a beginner or pro. If you are a beginner, you will learn by taking challenges, participating in the contests, and the feedback from the community. 
 
 For professionals, we have a special program to create challenges under your own name. Such that, a set of these challenges can help people learn and improve on their own. Learn more about it, from here: _Host your own challenges on GoSocial._
+
+_\_\_\_\__
+
+_GoSocial_\
+By [Hapramp Studio](https://www.hapramp.com)
