@@ -81,3 +81,8 @@ Rankings keep on updating depending upon your activity, participation & achievem
 The platform is the stage for both whether you are a beginner or pro. If you are a beginner, you will learn by taking challenges, participating in the contests, and the feedback from the community. 
 
 For professionals, we have a special program to create challenges under your own name. Such that, a set of these challenges can help people learn and improve on their own. Learn more about it, from here: _Host your own challenges on GoSocial._
+
+_\_\_\_\__
+
+_GoSocial_\
+By [Hapramp Studio](https://www.hapramp.com)
