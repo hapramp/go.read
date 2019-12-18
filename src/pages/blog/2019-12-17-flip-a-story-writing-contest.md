@@ -36,4 +36,4 @@ We are pledging to plant a tree for each participating entry. Spread the word.
 
 
 
-Participate in
+[Participate in the ongoing contests on GoSocial](https://play.google.com/store/apps/details?id=com.go.social.prod)!
