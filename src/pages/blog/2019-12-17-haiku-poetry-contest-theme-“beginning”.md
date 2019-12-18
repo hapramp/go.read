@@ -2,24 +2,18 @@
 templateKey: blog-post
 title: 'Haiku Poetry Contest | Theme: “Beginning”'
 date: 2019-12-17T11:53:26.559Z
-description: >-
-  Haiku is a Japanese form of poetry. It is popular for its simplicity and
-  brevity. The structure of Haiku is three lines with 5-7-5 number of words in
-  each.  
-featuredpost: false
+description: GoSocial Poetry Contest
+featuredpost: true
 featuredimage: /img/6.png
 tags:
-  - contest haiku writing
+  - contest
+  - haiku
+  - writing
+  - poetry
 ---
-**Participate in this contest to plant a tree:**
+Haiku is a Japanese form of poetry. It is popular for its simplicity and brevity. The structure of Haiku is three lines with 5-7-5 number of words in each.  
 
-We are pledging to plant a tree for each participating entry. Spread the word.
-
-**Samples**
-
-- - -
-
-**Prizes**
+## **Prizes:**
 
 **Rank 1**: Amazon Gift Card + GoSocial Swag Kit (T-shirt, stickers, badges, and bottle).
 
