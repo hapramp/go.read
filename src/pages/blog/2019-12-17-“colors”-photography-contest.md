@@ -6,9 +6,9 @@ description: GoSocial Photography Contest
 featuredpost: true
 featuredimage: /img/3-colors-photography-contest.png
 tags:
-  - contest
-  - colors
-  - photography
+  - Contest
+  - Colors
+  - Photography
 ---
 Colors create mood, emotions, warmth, coldness, and much more in a photograph. Use the entire palate of colors and emotions and cook a mix-salad in your camera. “Colors” Photography contest is for you to showcase how you make use of rich colors that give meaning to this world. 
 
