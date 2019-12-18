@@ -10,9 +10,9 @@ description: >-
 featuredpost: true
 featuredimage: /img/cover.jpg
 tags:
-  - gosocial
-  - hapramp
-  - announcement
+  - GoSocial
+  - Hapramp
+  - Announcement
 ---
 GoSocial is a comprehensive stage for creators who love to learn new things. We are building it for all the independent and budding creators to explore their hobby and share their work. On this platform, you can get smarter about what matters to you. Be it photography, writing, designing, art, traveling or any other skill. You can learn by taking part in the challenges. By competing in the contests. And by collaborating with other users.
 
