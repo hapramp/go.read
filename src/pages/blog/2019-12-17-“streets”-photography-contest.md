@@ -6,9 +6,9 @@ description: GoSocial Photography Contest
 featuredpost: true
 featuredimage: /img/2-street-photography-contest.png
 tags:
-  - photography
-  - street
-  - contest
+  - Photography
+  - Street
+  - Contest
 ---
 In the middle of hustling and bustling, chaos, and irregularities, the streets thrive. Empty streets are as useless as a camera without storage. The streets carry with them the randomness of every day along with the scars of history. Go out on the streets and bring a photo that shows “Streets” and stand a chance to win exciting prizes.
 
