@@ -6,9 +6,9 @@ description: GoSocial Photography Contest
 featuredpost: true
 featuredimage: /img/contest-posters-gosocial-app-10-.png
 tags:
-  - photography
-  - contest
-  - gosocial
+  - Photography
+  - Contest
+  - GoSocial
 ---
 We believe that the first step in solving a silent crisis is “Awareness”. So we urge you to gear up with your cameras and devices and capture the most heart-wrenching scenes of Air Pollution in India. And what it looks like to live in a dystopia.
 
