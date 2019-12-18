@@ -6,9 +6,9 @@ description: GoSocial Writing Contest
 featuredpost: true
 featuredimage: /img/5.png
 tags:
-  - contest
-  - story
-  - writing
+  - Contest
+  - Story
+  - Writing
 ---
 Stories that start with a dream and ends on a yacht! Stories that start with horror and ends with humor... In this contest, create a story that can fit into a single flip and make sure that the end is unexpected and surprising!
 
