@@ -13,6 +13,12 @@ tags:
 ---
 Pictures and words are the two easiest ways to express your emotions, creativity, and happiness. These are two ways that anyone can use to explain himself or herself. With pictures and words, you can define the moments of your life in a quintessential manner. Hub for creators, GoSocial provides both the medium to its users for expressing themselves. GoSocial has features known as ‘Flips’ and ‘Photos’. Here, we will discuss what are 'Flips and 'Photos' on GoSocial and how you can create them.
 
+<center>
+
+![](/img/main-create-gosocial.jpg)
+
+</center>
+
 ## Introducing Flips
 
 Flips enable the users to write content on a visual background. The background can be either an image or color of your choice.
@@ -35,7 +41,7 @@ Flips enable the users to write content on a visual background. The background c
 
 \- **Caption and Hashtag:** You can write captions and hashtags along with your flips.
 
-****
+- - -
 
 **How to create Flips on GoSocial?**
 
@@ -65,8 +71,6 @@ Now, your Flips have published successfully.
 
 **Note:** Flips can be saved in drafts for publishing later as well.
 
-
-
 **Introducing Photos:**
 
 You can use GoSocial to share your photos with friends and followers. Uploading and sharing photos on GoSocial is a basic feature.
@@ -83,10 +87,10 @@ Some flips created by @abiha_ashar and @Soham_Sinha on [GoSocial](https://play.g
 
 <center>
 
-![Get GoSocial App Flips Sample](/img/flip-it-post-it-1-.jpg "Some flips created by @abiha_ashar and @Soham_Sinha on GoSocial.")
+![Get GoSocial App Flips Sample](/img/flip-it-post-it-2-.png "Some flips created by @abiha_ashar and @Soham_Sinha on GoSocial.")
 
 </center>
 
-****[**Try creating Flips, Now!**](https://play.google.com/store/apps/details?id=com.go.social.prod)****
+[Try creating Flips, Now!](https://play.google.com/store/apps/details?id=com.go.social.prod)
 
-****
+- - -
