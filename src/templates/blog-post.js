@@ -76,8 +76,6 @@ const BlogPost = ({ data }) => {
   const title = post.frontmatter.title;
   const image = post.frontmatter.featuredimage?'https://getgosocial.app'+post.frontmatter.featuredimage.childImageSharp.fluid.src:post.frontmatter.bannerimage;
 
-  console.log("Image", image);
-
   return (
     <Layout>
       <BlogPostTemplate

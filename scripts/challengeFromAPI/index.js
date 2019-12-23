@@ -21,7 +21,7 @@ featuredpost: false
 featuredimage: null
 bannerimage: ${meta.banner_url}
 tags:
-  - challenges
+  - Challenges
 ${tagFormatted}\n---`
 }
 
@@ -44,7 +44,7 @@ const createMarkdownFile = (markdownData, path) => {
     if (err) {
       return console.log(err);
     }
-    console.log("The file was saved!");
+    console.log("Created File", path);
   });
 }
 
@@ -69,7 +69,7 @@ const getMarkdownData = (item) => {
       created_at: item.created_at,
       desc: `'${segments[0].content}'`,
       banner_url: item.banner_url,
-      tags: item.tags
+      tags: item.tags.map(tag=>tag.charAt(0).toUpperCase() + tag.slice(1))
     }
   })
 
