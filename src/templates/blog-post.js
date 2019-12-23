@@ -44,7 +44,7 @@ export const BlogPostTemplate = ({
                 <p className="text-base mr-4">Published on {date}</p>
                 <span className="hidden sm:inline">|</span>
               {tags && tags.length ? (
-                  <div className="mt-1 sm:mt-0 sm:ml-4">
+                  <div className="flex flex-wrap mt-1 sm:mt-0 sm:ml-4">
                     {tags.map(tag => (
                       <span className="mr-2 uppercase text-base text-gray-70" key={tag + `tag`}>
                         <Link className="text-secondary" to={`/tags/${kebabCase(tag)}/`}>#{tag}</Link>
