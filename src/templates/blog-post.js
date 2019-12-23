@@ -74,7 +74,9 @@ const BlogPost = ({ data }) => {
 
   const description = post.frontmatter.description;
   const title = post.frontmatter.title;
-  const image = 'https://getgosocial.app'+post.frontmatter.featuredimage.childImageSharp.fluid.src;
+  const image = post.frontmatter.featuredimage?'https://getgosocial.app'+post.frontmatter.featuredimage.childImageSharp.fluid.src:post.frontmatter.bannerimage;
+
+  console.log("Image", image);
 
   return (
     <Layout>
@@ -82,7 +84,7 @@ const BlogPost = ({ data }) => {
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
-        featuredimage={post.frontmatter.featuredimage}
+        featuredimage={post.frontmatter.featuredimage?post.frontmatter.featuredimage:post.frontmatter.bannerimage}
         date={post.frontmatter.date}
         helmet={
           <Helmet titleTemplate="%s | GoSocial Blog">
@@ -137,6 +139,7 @@ export const pageQuery = graphql`
         title
         description
         tags
+        bannerimage
         featuredimage { childImageSharp { fluid(maxWidth: 1600, quality: 100) { ...GatsbyImageSharpFluid } } }
       }
     }
