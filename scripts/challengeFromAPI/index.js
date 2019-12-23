@@ -67,7 +67,7 @@ const getMarkdownData = (item) => {
     meta: {
       title: `'${item.title}'`,
       created_at: item.created_at,
-      desc: segments[0].content,
+      desc: `'${segments[0].content}'`,
       banner_url: item.banner_url,
       tags: item.tags
     }
