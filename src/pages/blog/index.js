@@ -32,7 +32,7 @@ export default class BlogIndexPage extends React.Component {
                     <img className="mr-2" src={contestIcon} alt="" />
                     Contests
                   </Link>
-                  <Link className="font-black italic md:text-lg lg:text-xl flex flex-shrink-0 items-center mx-2 bg-white px-4 py-2 rounded h-12" to="/tags/challenges/">
+                  <Link className="font-black italic md:text-lg lg:text-xl flex flex-shrink-0 items-center mx-2 bg-white px-4 py-2 rounded h-12" to="/tags/challenge/">
                     <img className="mr-2" src={challengesIcon} alt="" />
                     Challenges
                   </Link>
