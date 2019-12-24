@@ -3,7 +3,7 @@ const MarkdownFromAPI = require('./MarkdownFromAPI');
 //Challenges From API
 const getChallengeMarkdown = new MarkdownFromAPI({
   path: '../src/pages/blog',
-  apiUrl: 'https://beta-api.hapramp.com/contests/',
+  apiUrl: 'https://beta-api.hapramp.com/challenges/',
   tag:'Challenge'
 });
 

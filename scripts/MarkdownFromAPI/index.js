@@ -8,8 +8,6 @@ slugify.extend({ '/': '-' })
 
 json2md.converters.meta = function (meta, json2md) {
 
-  console.log("Tags", meta.tags);
-
   let tagFormatted = ''
   meta.tags.map(tag => tagFormatted += `  - ${tag}\n`)
 

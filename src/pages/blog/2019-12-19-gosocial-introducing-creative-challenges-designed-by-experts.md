@@ -6,7 +6,7 @@ description: GoSocial Challenges - Learn by doing!
 featuredpost: true
 featuredimage: /img/flip-it-post-it-3-.png
 tags:
-  - Challenges
+  - Challenge
   - Newsroom
   - Announcement
   - GoSocial
