@@ -55,7 +55,7 @@ const Navbar = class extends React.Component {
               <img className="mr-2 hidden md:block" src={contestIcon} alt=""/>
               Contests
             </Link>
-            <Link className="font-black italic md:text-lg lg:text-xl flex items-center px-2 md:px-4" to="/tags/challenges/">
+            <Link className="font-black italic md:text-lg lg:text-xl flex items-center px-2 md:px-4" to="/tags/challenge/">
               <img className="mr-2 hidden md:block" src={challengesIcon} alt=""/>
               Challenges
             </Link>

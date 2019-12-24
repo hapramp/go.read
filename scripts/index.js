@@ -1,3 +1,18 @@
-const initChallenge =  require('./challengeFromAPI');
+const MarkdownFromAPI = require('./MarkdownFromAPI');
 
-initChallenge();
+//Challenges From API
+const getChallengeMarkdown = new MarkdownFromAPI({
+  path: '../src/pages/blog',
+  apiUrl: 'https://beta-api.hapramp.com/contests/',
+  tag:'Challenge'
+});
+
+//Contests From API
+const getContestMarkdown = new MarkdownFromAPI({
+  path: '../src/pages/blog',
+  apiUrl: 'https://beta-api.hapramp.com/contests/',
+  tag:'Contest'
+});
+
+getChallengeMarkdown.init();
+getContestMarkdown.init();
