@@ -29,7 +29,7 @@ module.exports = class MarkdownFromAPI {
     this.config = config;
   }
 
-  getCorrectMarkdownObject = (segment) => {
+  getCorrectMarkdownObject(segment) {
     switch (segment.type) {
       case 'text':
         return { p: segment.content.trim() }
@@ -43,7 +43,7 @@ module.exports = class MarkdownFromAPI {
   }
 
 
-  createMarkdownFile = (markdownData, path) => {
+  createMarkdownFile(markdownData, path) {
     fs.writeFile(path, markdownData, { flag: 'w' }, function (err) {
       if (err) {
         return console.log(err);
@@ -52,7 +52,7 @@ module.exports = class MarkdownFromAPI {
     });
   }
 
-  getBlogSlug = (blog) => {
+  getBlogSlug(blog) {
     const timeStamp = blog.created_at
     const title = blog.title
     let date = new Date(timeStamp);
@@ -61,7 +61,7 @@ module.exports = class MarkdownFromAPI {
   }
 
 
-  getMarkdownData = (item) => {
+  getMarkdownData(item) {
     let segments = item.content_json.segments;
 
     let mdArray = [];
@@ -83,13 +83,13 @@ module.exports = class MarkdownFromAPI {
     return mdArray
   }
 
-  createChallengesMarkdownPost = (item) => {
+  createChallengesMarkdownPost(item) {
     let md = json2md(this.getMarkdownData(item));
     let slug = this.getBlogSlug(item)
     this.createMarkdownFile(md, path.join(path.dirname(require.main.filename), this.config.path, `${slug}.md`));
   }
 
-  fetchChallenges = (url) => {
+  fetchChallenges(url) {
     fetch(url)
       .then(data => data.json())
       .then(json => {
@@ -103,7 +103,7 @@ module.exports = class MarkdownFromAPI {
       })
   }
 
-  init = () => {
+  init() {
     this.fetchChallenges(this.config.apiUrl);
   }
 }
