@@ -7,8 +7,8 @@ const Hero = () => {
       <div className="max-w-5xl mx-auto sm:h-screen flex flex-col items-center relative justify-center px-6 sm:px-10 xl:px-0 mb-32" >
         <div className="flex flex-col sm:flex-row">
           <div className="sm:w-1/2 mt-64 sm:mt-20">
-            <h1 className="font-black text-4xl sm:text-4xl md:text-6xl italic leading-tight">Creators, Let’s Gosocial</h1>
-            <p className="text-xl mt-4">Take challenges and contests in photography, writing, and design. Get Inspired and earn rewards on the Go!</p>
+            <h1 className="font-black text-4xl sm:text-4xl md:text-6xl italic leading-tight">Creators, Let’s GoSocial</h1>
+            <p className="text-xl mt-4">Participate in photography challenges and contests. Get Inspired and earn rewards on the Go!</p>
             <div className="mt-16">
               <a href="https://play.google.com/store/apps/details?id=com.go.social.prod" className="text-white shadow sm:shadow-none mt-4 md:mt-0 flex-grow bg-primary py-4 px-6 rounded cursor-pointer" target="__new">
               <svg className="inline mr-2" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
