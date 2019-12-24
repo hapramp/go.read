@@ -84,7 +84,7 @@ module.exports = {
         theme_color: `#254BBB`,
         display: `standalone`,
         icon: `static/img/icon.png`,
-        scope: "/blog"
+        scope: "/"
       },
     },
     'gatsby-plugin-offline'

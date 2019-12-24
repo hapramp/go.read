@@ -22,9 +22,29 @@ body {
   top: 64px;
 }
 
+main.content {
+  margin-top: 77px;
+}
+
 @media screen and (max-width:1024px) {
   .cta-dots {
     right: 24px;
     top: 24px;
+  }
+
+  main.content {
+    margin-top: 68px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  main.content {
+    margin-top: 62px;
+  }
+}
+
+@media screen and (max-width:640px) {
+  main.content {
+    margin-top: 46px;
   }
 }

@@ -39,7 +39,7 @@ const Navbar = class extends React.Component {
   render() {
     return (
       <nav
-        className="py-2 sm:py-4 text-gray-70"
+        className="py-2 sm:py-4 text-gray-70 fixed w-full bg-white z-50"
         role="navigation"
         aria-label="main-navigation"
       >
