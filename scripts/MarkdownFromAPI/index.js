@@ -76,11 +76,11 @@ module.exports = class MarkdownFromAPI {
       }
     })
 
-    segments.map(segmentItem => mdArray.push(this.getCorrectMarkdownObject(segmentItem)))
+    segments.slice(1).map(segmentItem => mdArray.push(this.getCorrectMarkdownObject(segmentItem)))
 
     mdArray.push({ link: { title: 'Participate on GoSocial App', source: 'https://play.google.com/store/apps/details?id=com.go.social.prod' } })
 
-    return mdArray
+    return mdArray;
   }
 
   createChallengesMarkdownPost(item) {
