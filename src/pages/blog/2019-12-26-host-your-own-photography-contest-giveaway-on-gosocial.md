@@ -14,7 +14,6 @@ tags:
   - contests
   - announcement
   - gosocial
-  - ''
 ---
 GoSocial can mean many things for many people. But at the core, it enables action and engagement for creators. GoSocial is an app for the photographers to create on the Go! 
 
