@@ -34,7 +34,7 @@ const Hero = () => {
             <img src={heroImg} alt="Hero"/>
           </div>
         </div>
-        <div className="hidden sm:flex self-start flex-col items-center mt-16 ml-4 sm:ml-20">
+        <div className="hidden sm:flex self-start flex-col items-center mt-16 ml-4 sm:ml-20 xl:ml-32">
           <svg  width="3" height="83" xmlns="http://www.w3.org/2000/svg">
               <path d="M1.314 82V1" stroke="#000" strokeWidth="2" fill="none" fillRule="evenodd" strokeDasharray="4,4" strokeLinecap="square"/>
           </svg>
