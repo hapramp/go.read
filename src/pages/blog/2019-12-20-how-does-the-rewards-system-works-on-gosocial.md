@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: How Does The Rewards System Works on GoSocial?
+title: 'How Does The Rewards System Works on GoSocial? [unpublish]'
 date: 2019-12-20T13:12:02.674Z
 description: >-
   Explaining the Reputation Level, Like Value, and Like Capacity. And how users
