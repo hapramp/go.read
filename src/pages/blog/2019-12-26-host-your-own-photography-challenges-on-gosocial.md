@@ -9,9 +9,8 @@ description: >-
 featuredpost: true
 featuredimage: /img/create-your-own-challenges-.jpg
 tags:
-  - Announcement
+  - announcement
   - GoSocial
-  - challenges
 ---
 By creating photography challenges on GoSocial, you can help photographers in learning, establish a new method to engage with your followers, and also host giveaways. These personal challenges not only helps people in improving but also keeps them going with their hobby.
 
