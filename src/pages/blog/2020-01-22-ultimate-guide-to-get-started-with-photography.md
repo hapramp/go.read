@@ -4,7 +4,7 @@ title: Ultimate Guide To Get Started With Photography
 date: 2020-01-14T07:35:26.410Z
 description: >-
   To learn anything new, you need to set goals for yourself and then challenge
-  yourself to take and finish them.
+  yourself to achieve them.
 featuredpost: true
 featuredimage: /img/flip-it-post-it-7-.png
 tags:
