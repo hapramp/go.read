@@ -8,7 +8,7 @@ description: >-
 featuredpost: true
 featuredimage: /img/flip-it-post-it-4-.png
 tags:
-  - Announcement
+  - announcement
   - Rewards
   - GoSocial
   - Coins
