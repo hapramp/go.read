@@ -6,7 +6,7 @@ description: Explaining Flips on GoSocial
 featuredpost: true
 featuredimage: /img/flip-it-post-it-.png
 tags:
-  - Announcement
+  - announcement
   - Newsroom
   - Flips
   - GoSocial
