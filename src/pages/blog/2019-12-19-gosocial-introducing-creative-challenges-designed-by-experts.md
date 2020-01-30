@@ -8,7 +8,7 @@ featuredimage: /img/flip-it-post-it-3-.png
 tags:
   - Challenge
   - Newsroom
-  - Announcement
+  - announcement
   - GoSocial
 ---
 There are many ways to learn a creative skill on the Internet. It can be through a professional course, watching youtube videos or hustling on the Internet to find relevant resources. This is a great path to learning. But research suggests that there is one problem, the dropout rate in online courses is between 40% to as high as 80% ([B. Smith, 2010, E-learning Technologies](https://journals.sagepub.com/doi/pdf/10.1177/2158244015621777)). People lose the motivation, discipline on the way and often there is no fun element in learning in isolation. 
