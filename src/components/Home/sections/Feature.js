@@ -47,9 +47,9 @@ const Feature = () => {
           </div>
 
           <div className="md:w-1/2 mt-8 md:mt-0 text-center md:text-left">
-            <h2 className="font-black text-4xl lg:text-4xl italic">Rewards That Keep You Going, Every Week.</h2>
+            <h2 className="font-black text-4xl lg:text-4xl italic">Fun That Keeps You Going, Every Week.</h2>
             <p className="sm:text-xl text-2xl lg:text-2xl leading-tight mt-4">
-            Cash rewards for top creators, every week. Each Like and finished challenge moves you up on the leaderboard.
+            Each finished challenge moves you up on the leaderboard.
             </p>
           </div>
         </div>
