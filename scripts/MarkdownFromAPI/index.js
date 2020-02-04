@@ -11,9 +11,11 @@ json2md.converters.meta = function (meta, json2md) {
   let tagFormatted = ''
   meta.tags.map(tag => tagFormatted += `  - ${tag}\n`)
 
+  let metaTitle = `'${meta.title.replace(/'/g, '')}'`;
+
   return `---
 templateKey: blog-post
-title: ${meta.title}
+title: ${metaTitle}
 date: ${meta.created_at}
 description: ${meta.desc}
 featuredpost: false
@@ -21,6 +23,10 @@ featuredimage: null
 bannerimage: ${meta.banner_url}
 tags:
 ${tagFormatted}\n---`
+}
+
+json2md.converters.youtube = function(youtubeId, json2md) {
+  return `[![Youtube Video](https://img.youtube.com/vi/${youtubeId}/0.jpg)](https://www.youtube.com/watch?v=${youtubeId})`
 }
 
 
@@ -36,6 +42,9 @@ module.exports = class MarkdownFromAPI {
 
       case 'image':
         return { img: { title: 'Image', source: segment.url } }
+
+      case 'youtube':
+      return { youtube: segment.url }
 
       default:
         return { [segment.type]: segment.content.trim() }
