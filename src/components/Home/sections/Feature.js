@@ -30,7 +30,7 @@ const Feature = () => {
           <div className="md:w-1/2 mt-8 md:mt-0 text-center md:text-left">
             <h2 className="font-black text-4xl lg:text-4xl italic">New Challenges, Every Week.</h2>
             <p className="sm:text-xl text-xl lg:text-2xl leading-tight mt-4">
-            Take your cue from the challenges created by experts and improve your skill. Never run inspiration to create!
+            Take your cue from the challenges created by experts and improve your skills. Never run out of inspiration to create!
             
             </p>
             <div className="inline-block mt-8 text-secondary border-b-2 uppercase"><Link to="/tags/challenge/">Explore Challenges</Link></div>
