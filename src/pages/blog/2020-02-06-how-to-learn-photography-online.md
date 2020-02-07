@@ -12,7 +12,6 @@ tags:
   - general
   - photography
   - learn
-  - ''
 ---
 Photography is the art form of modern-day. It not only captures the moments but also expresses the emotion, feeling, or thoughts of the photographer. However, cameras are complicated, taking pictures has never been that much easier which it looks like. If proper photography guidelines are not followed, you won’t be able to capture what you have seen through your viewfinder and might end up getting frustrated. So, before worrying about becoming a pro, it is better that you learn the fundamentals, like exposure, aperture, composition, lighting, etc.
 
