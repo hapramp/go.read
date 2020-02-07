@@ -11,8 +11,8 @@ json2md.converters.meta = function (meta, json2md) {
   let tagFormatted = ''
   meta.tags.map(tag => tagFormatted += `  - ${tag}\n`)
 
-  let metaTitle = `'${meta.title.replace(/'/g, '’')}'`;
-  let desc = `'${meta.desc.replace(/'/g, '’')}'`;
+  let metaTitle =`'${meta.title.substring(1, meta.title.length-1).replace(/'/g, '’')}'`;
+  let desc = `'${meta.desc.substring(1, meta.desc.length-1).replace(/'/g, '’').replace(/:/g, '')}'`;
 
   return `---
 templateKey: blog-post
