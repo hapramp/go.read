@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Helmet } from 'react-helmet'
 import { withPrefix } from 'gatsby';
 
-import { getFirebase } from './config/fbConfig';
+import { getFirebase } from '../../config/fbConfig';
 
 const User = (props) => {
 
