@@ -3,13 +3,14 @@ const fetch = require('node-fetch');
 const fs = require('fs');
 const path = require('path');
 const slugify = require('slugify');
+const _ = require('lodash')
 
 slugify.extend({ '/': '-' })
 
 json2md.converters.meta = function (meta, json2md) {
 
   let tagFormatted = ''
-  meta.tags.map(tag => tagFormatted += `  - ${tag}\n`)
+  meta.tags.map(tag => tagFormatted += `  - ${_.kebabCase(tag)}\n`)
 
   let metaTitle =`'${meta.title.substring(1, meta.title.length-1).replace(/'/g, '’')}'`;
   let desc = `'${meta.desc.substring(1, meta.desc.length-1).replace(/'/g, '’').replace(/:/g, '')}'`;
