@@ -13,9 +13,9 @@ const Hero = () => {
         <div className="flex flex-col sm:flex-row items-center justify-center mt-12 md:mt-16">
           <div className="text-center">
             <h1
-              className="font-black text-4xl sm:text-4xl md:text-5xl italic leading-tight px-4">Inspire creators with your idea</h1>
+              className="font-black text-4xl sm:text-4xl md:text-5xl italic leading-tight px-4">Inspire creators with your ideas</h1>
             <p className="max-w-xl mt-4 mx-auto text-xl px-4">Creative ideas can be shared in
-              from of challenges (projects/prompts) on GoSocial. Budding creators take these
+              from of challenges on GoSocial. Budding creators take these
               as self-challenges to learn new things.</p>
 
             <div className="mt-10">
@@ -40,7 +40,7 @@ const Hero = () => {
                     transform="translate(0 1)"
                     fillRule="evenodd"/>
                 </svg>
-                <p className="text-lg md:text-xl uppercase ml-4">22k Submissions in challenges</p>
+                <p className="text-lg md:text-xl uppercase ml-4">35k Submissions in challenges</p>
               </div>
             </div>
           </div>

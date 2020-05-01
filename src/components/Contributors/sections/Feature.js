@@ -14,7 +14,7 @@ const Feature = () => {
         <div
           className="flex flex-col-reverse md:flex-row justify-center items-center mt-24 sm:mt-32 xl:ml-24">
           <div className="md:w-1/2 mt-8 md:mt-0 text-center md:text-left">
-            <h2 className="font-black text-2xl md:text-3xl lg:text-4xl italic leading-tight">Empower Budding Creators with Ideas</h2>
+            <h2 className="font-black text-2xl md:text-3xl lg:text-4xl italic leading-tight">Empower budding creators with your ideas</h2>
             <p className="text-lg sm:text-xl leading-tight mt-4">
               Host your photography, writing, art, or design challenge on GoSocial. And see
               new creators adapt your style and learn as they create.
@@ -35,7 +35,7 @@ const Feature = () => {
           </div>
 
           <div className="md:w-1/2 mt-8 md:mt-0 text-center md:text-left">
-            <h2 className="font-black text-2xl md:text-3xl lg:text-4xl italic leading-tight">Reward And Be Rewarded</h2>
+            <h2 className="font-black text-2xl md:text-3xl lg:text-4xl italic leading-tight">Reward and be rewarded</h2>
             <p className="text-lg sm:text-xl leading-tight mt-4">
               Host a giveaway, run a contest, or sell your stuff. Creative challenges are new
               and ever evolving. Work alongside our team and plan your own unique challenges.
