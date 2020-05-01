@@ -1,5 +1,4 @@
 import React from 'react';
-import heroImg from './img/hero-image.png'
 import bgImage from './img/hero_bg.jpg'
 
 const Hero = () => {
