@@ -11,7 +11,7 @@ import chinmayImg from './img/contributors/chinmay.jpg'
 
 const ContributorsList = () => {
   return (
-    <section className="bg-gray-245 py-12 mt-20">
+    <section className="bg-gray-245 py-12 mt-12 md:mt-20">
       <div className="max-w-5xl mx-auto text-center">
         <div className="flex flex-wrap flex-row justify-center">
           <Contributor
@@ -39,7 +39,7 @@ const ContributorsList = () => {
             img={vineetImg}
             link="https://www.instagram.com/vineetsharma527/"/>
 
-          <div className="mx-4">
+          <div className="mx-4 mb-6 md:mb-10">
             <a className="flex flex-col items-center" href="https://getgosocial.app/blog/2020-05-01-meet-gosocial-contributors/" target="__blank">
               <div className="h-20 w-20 rounded-full bg-black flex justify-center items-center">
                 <svg width="25" height="24" xmlns="http://www.w3.org/2000/svg">
@@ -53,8 +53,8 @@ const ContributorsList = () => {
           </div>
         </div>
         <a
-            href="https://play.google.com/store/apps/details?id=com.go.social.prod&referrer=utm_source%3Dgetgosocial.app%26utm_medium%3Dbutton_cta%26utm_term%3Dget%252Bit%252Bon%252Bplaystore%26utm_campaign%3Dlanding_page"
-            className="inline-block text-white shadow sm:shadow-none mt-10 flex-grow bg-primary py-3 px-6 rounded cursor-pointer"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSf4n1x4gRNjB4jz2XVxV6GMyoltMCbu6ccIOR0uY3rO8yH3mA/viewform?usp=sf_link"
+            className="inline-block text-white shadow sm:shadow-none flex-grow bg-primary py-3 px-6 rounded cursor-pointer"
             target="__new">
             <span>Become Contributor</span>
           </a>

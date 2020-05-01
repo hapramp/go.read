@@ -1,16 +1,22 @@
-import React from 'react';
+import React, {useRef} from 'react';
 import Hero from './sections/Hero';
 import Feature from './sections/Feature';
 import Feature2 from './sections/Feature2';
 import CTA from './sections/CTA';
-import Footer from './sections/Footer'
+import Footer from './sections/Footer';
 
-const index = () => {
+const scrollToRef = (ref) => window.scrollTo({left:0, top:ref.current.offsetTop-80, behavior: 'smooth'})
+
+const Index = () => {
+  const featureRef = useRef(null);
+
+  const executeScroll = () => scrollToRef(featureRef)
+
   return (
-    <div className="antialiased">
+    <div className="antialiased home-page">
       <div className="bg-black">
-        <Hero/>
-        <Feature/>
+        <Hero executeScroll={executeScroll}/>
+        <Feature featureRef={featureRef}/>
       </div>
       <Feature2/>
       <CTA/>
@@ -19,4 +25,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

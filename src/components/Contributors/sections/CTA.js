@@ -10,12 +10,12 @@ const CTA = () => {
         style={{
         backgroundImage: `url(${ctaBlob})`
       }}
-        className="px-6 max-w-7xl sm:px-10 bg-black text-white lg:mx-auto pt-32 pb-20 sm:py-32 lg:rounded-lg lg:shadow-2xl text-center relative bg-left-bottom bg-no-repeat">
-        <h2 className="font-black text-4xl md:text-5xl italic">Host Your First Challenge on GoSocial</h2>
+        className="px-4 max-w-7xl sm:px-10 bg-black text-white lg:mx-auto pt-16 sm:pt-32 pb-16 sm:pb-20 sm:py-32 lg:rounded-lg lg:shadow-2xl text-center relative bg-left-bottom bg-no-repeat">
+        <h2 className="font-black text-3xl md:text-5xl italic">Host Your First Challenge on GoSocial</h2>
         <p className="text-xl md:text-2xl mt-4">#CreateOnTheGo</p>
-        <div className=" mt-16">
+        <div className="mt-10 sm:mt-16">
           <a
-            href="https://play.google.com/store/apps/details?id=com.go.social.prod&referrer=utm_source%3Dgetgosocial.app%26utm_medium%3Dbutton_cta%26utm_term%3Dget%252Bit%252Bon%252Bplaystore%26utm_campaign%3Dlanding_page"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSf4n1x4gRNjB4jz2XVxV6GMyoltMCbu6ccIOR0uY3rO8yH3mA/viewform?usp=sf_link"
             className="text-white shadow sm:shadow-none mt-4 md:mt-0 flex-grow bg-primary py-4 px-6 rounded cursor-pointer"
             target="__new">
             <svg
@@ -32,7 +32,7 @@ const CTA = () => {
             <span>Get in touch.</span>
           </a>
         </div>
-        <img className="absolute cta-dots" src={dots} alt="Dots Decos"/>
+        <img className="absolute cta-dots hidden sm:block" src={dots} alt="Dots Decos"/>
       </div>
     </section>
   );

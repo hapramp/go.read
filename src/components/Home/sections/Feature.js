@@ -4,11 +4,11 @@ import contestImg from './img/contest.png';
 import challengeImg from './img/challenges.png';
 import {Link} from 'gatsby';
 
-const Feature = () => {
+const Feature = (props) => {
   return (
-    <section className="text-white pb-16 md:pb-32">
+    <section ref={props.featureRef} className="text-white pb-16 md:pb-32">
       <div
-        className="max-w-5xl mx-auto mt-24 sm:mt-40 px-6 sm:px-10 lg:px-20 xl:px-0">
+        className="max-w-5xl mx-auto mt-16 sm:mt-40 px-6 sm:px-10 lg:px-20 xl:px-0">
         {/* Contest Section */}
         <div className="flex flex-col md:flex-row justify-center items-center">
           <div className="md:w-1/2">

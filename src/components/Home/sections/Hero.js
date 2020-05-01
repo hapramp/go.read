@@ -1,7 +1,8 @@
 import React from 'react';
 import bgImage from './img/hero_bg.jpg'
 
-const Hero = () => {
+const Hero = (props) => {
+
   return (
     <section className="hero bg-black">
       <div
@@ -9,7 +10,7 @@ const Hero = () => {
         style={{
         backgroundImage: `url(${bgImage})`
       }}></div>
-      <div className="max-w-5xl mx-auto text-white md:pb-10 text-center">
+      <div className="max-w-5xl mx-auto text-white text-center">
         <div className="flex flex-col sm:flex-row items-center justify-center">
           <div className="-mt-72">
             <h1
@@ -36,7 +37,8 @@ const Hero = () => {
             </div>
             <div className="mt-20 hidden sm:block">
               <svg
-                className="mx-auto"
+                onClick={props.executeScroll}
+                className="mx-auto cursor-pointer"
                 width="42"
                 height="42"
                 xmlns="http://www.w3.org/2000/svg">
