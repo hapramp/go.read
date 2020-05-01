@@ -46,6 +46,4 @@ We'll keep updating these points.
 
 We update this blog every week to include new contributors.
 
-
-
 \[In progress]
