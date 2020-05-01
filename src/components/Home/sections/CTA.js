@@ -10,7 +10,7 @@ const CTA = () => {
         style={{
         backgroundImage: `url(${ctaBlob})`
       }}
-        className="px-6 max-w-7xl sm:px-10 bg-black text-white lg:mx-auto pt-32 pb-20 sm:py-32 lg:rounded-lg lg:shadow-2xl text-center relative bg-left-bottom bg-no-repeat">
+        className="px-4 max-w-7xl sm:px-10 bg-black text-white lg:mx-auto pt-32 pb-20 sm:py-32 lg:rounded-lg lg:shadow-2xl text-center relative bg-left-bottom bg-no-repeat">
         <h2 className="font-black text-4xl md:text-5xl italic">CreateOnTheGo</h2>
         <p className="text-xl md:text-2xl mt-4">Infinite Aspirations, One Motto</p>
         <div className=" mt-16">

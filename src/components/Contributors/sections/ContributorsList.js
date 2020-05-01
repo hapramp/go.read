@@ -11,7 +11,7 @@ import chinmayImg from './img/contributors/chinmay.jpg'
 
 const ContributorsList = () => {
   return (
-    <section className="bg-gray-245 py-16 mt-20">
+    <section className="bg-gray-245 py-12 mt-20">
       <div className="max-w-5xl mx-auto text-center">
         <div className="flex flex-wrap flex-row justify-center">
           <Contributor
@@ -40,7 +40,7 @@ const ContributorsList = () => {
             link="https://www.instagram.com/vineetsharma527/"/>
 
           <div className="mx-4">
-            <a className="flex flex-col items-center" href="" target="__blank">
+            <a className="flex flex-col items-center" href="https://getgosocial.app/blog/2020-05-01-meet-gosocial-contributors/" target="__blank">
               <div className="h-20 w-20 rounded-full bg-black flex justify-center items-center">
                 <svg width="25" height="24" xmlns="http://www.w3.org/2000/svg">
                   <g stroke="#FFF" fill="none" fillRule="evenodd" strokeLinecap="square">

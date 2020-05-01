@@ -5,15 +5,15 @@ const Hero = () => {
   return (
     <section className="hero bg-black">
       <div
-        className="p-68 bg-cover bg-center"
+        className="py-48 md:py-68 bg-cover bg-center"
         style={{
         backgroundImage: `url(${bgImage})`
       }}></div>
-      <div className="max-w-5xl mx-auto text-white pb-10">
+      <div className="max-w-5xl mx-auto text-white md:pb-10 text-center">
         <div className="flex flex-col sm:flex-row items-center justify-center">
           <div className="-mt-72">
             <h1
-              className="font-black text-4xl sm:text-4xl md:text-5xl italic leading-tight">Work on creative ideas designed by experts</h1>
+              className="font-black text-4xl sm:text-4xl md:text-5xl italic leading-tight px-4">Work on creative ideas designed by experts</h1>
 
             <div className="mt-16 text-center">
               <a
@@ -34,7 +34,7 @@ const Hero = () => {
                 <span>Install Now</span>
               </a>
             </div>
-            <div className="mt-20">
+            <div className="mt-20 hidden sm:block">
               <svg
                 className="mx-auto"
                 width="42"
