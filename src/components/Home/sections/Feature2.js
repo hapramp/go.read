@@ -68,7 +68,7 @@ const Feature = () => {
                 <img className="h-16 w-16" src={badge5} alt="Badge"/>
                 <div className="ml-4">
                   <h5 className="text-base sm:text-lg uppercase font-bold">365 Days - Legend</h5>
-                  <p className="text-base md:text-lg"></p>
+                  <p className="text-base md:text-lg">Make a ritual to create every day</p>
                 </div>
               </div>
             </div>

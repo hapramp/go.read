@@ -29,7 +29,7 @@ const CTA = () => {
                 fill="#fff"
                 d="M1.571 23.664l10.531-10.501 3.712 3.701-12.519 6.941a1.563 1.563 0 01-1.532-.011l-.192-.13zm9.469-11.56L1 22.115V2.093l10.04 10.011zm6.274-4.137l4.905 2.719c.482.268.781.77.781 1.314s-.299 1.046-.781 1.314l-5.039 2.793-4.015-4.003 4.149-4.137zM1.46.433A1.563 1.563 0 013.295.195L15.948 7.21l-3.846 3.835L1.46.433z"/>
             </svg>
-            <span>Get in touch.</span>
+            <span>Become Contributor</span>
           </a>
         </div>
         <img className="absolute cta-dots hidden sm:block" src={dots} alt="Dots Decos"/>
