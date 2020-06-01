@@ -18,7 +18,7 @@ json2md.converters.meta = function (meta, json2md) {
   return `---
 templateKey: blog-post
 title: ${metaTitle}
-date: ${meta.created_at}
+date: ${meta.created_at?meta.created_at:new Date().toISOString()}
 description: ${desc}
 featuredpost: false
 featuredimage: null
@@ -66,7 +66,7 @@ module.exports = class MarkdownFromAPI {
   getBlogSlug(blog) {
     const timeStamp = blog.created_at
     const title = blog.title
-    let date = new Date(timeStamp);
+    let date =  blog.created_at?new Date(timeStamp):new Date();
     let slugPrefix = `${date.getFullYear()}-${("0" + date.getMonth()).slice(-2)}-${("0" + (date.getDate() + 1)).slice(-2)}`
     return `${slugPrefix}-${slugify(title, { remove: /[*+~.()'"!:@/#]/g })}`;
   }
@@ -76,6 +76,7 @@ module.exports = class MarkdownFromAPI {
     let segments = item.content_json.segments;
 
     let mdArray = [];
+    let itemTags = item.tags?[this.config.tag].concat(item.tags.map(tag => tag.charAt(0).toUpperCase() + tag.slice(1))):[this.config.tag];
 
     mdArray.push({
       meta: {
@@ -83,7 +84,7 @@ module.exports = class MarkdownFromAPI {
         created_at: item.created_at,
         desc: `'${segments[0].content}'`,
         banner_url: item.banner_url,
-        tags: [this.config.tag].concat(item.tags.map(tag => tag.charAt(0).toUpperCase() + tag.slice(1)))
+        tags: itemTags
       }
     })
 
