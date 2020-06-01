@@ -1,18 +1,45 @@
 const MarkdownFromAPI = require('./MarkdownFromAPI');
 
-//Challenges From API
-const getChallengeMarkdown = new MarkdownFromAPI({
+//Photography Challenges From API
+const getPhotographyChallengeMarkdown = new MarkdownFromAPI({
   path: '../src/pages/blog',
-  apiUrl: 'https://beta-api.hapramp.com/challenges/',
-  tag:'Challenge'
+  apiUrl: 'https://beta-api.hapramp.com/challenges?domain=photography',
+  tags:['Challenge', 'Photography']
 });
+
+//Art Challenges From API
+const getArtChallengeMarkdown = new MarkdownFromAPI({
+  path: '../src/pages/blog',
+  apiUrl: 'https://beta-api.hapramp.com/challenges?domain=art',
+  tags:['Challenge', 'Art']
+});
+
+//Writing Challenges From API
+const getWritingChallengeMarkdown = new MarkdownFromAPI({
+  path: '../src/pages/blog',
+  apiUrl: 'https://beta-api.hapramp.com/challenges?domain=writing',
+  tags:['Challenge', 'Writing']
+});
+
 
 //Contests From API
-const getContestMarkdown = new MarkdownFromAPI({
+const getPhotographyContestMarkdown = new MarkdownFromAPI({
   path: '../src/pages/blog',
-  apiUrl: 'https://beta-api.hapramp.com/contests/',
-  tag:'Contest'
+  apiUrl: 'https://beta-api.hapramp.com/contests?domain=photography',
+  tags:['Contest','Photography']
 });
 
-getChallengeMarkdown.init();
-getContestMarkdown.init();
+const getArtContestMarkdown = new MarkdownFromAPI({
+  path: '../src/pages/blog',
+  apiUrl: 'https://beta-api.hapramp.com/contests?domain=art',
+  tags:['Contest','Art']
+});
+
+// Loads Challenges of different domain
+getPhotographyChallengeMarkdown.init();
+getArtChallengeMarkdown.init();
+getWritingChallengeMarkdown.init();
+
+//Loads Contest of different domians
+getPhotographyContestMarkdown.init();
+getArtContestMarkdown.init();

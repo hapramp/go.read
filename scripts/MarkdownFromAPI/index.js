@@ -76,7 +76,7 @@ module.exports = class MarkdownFromAPI {
     let segments = item.content_json.segments;
 
     let mdArray = [];
-    let itemTags = item.tags?[this.config.tag].concat(item.tags.map(tag => tag.charAt(0).toUpperCase() + tag.slice(1))):[this.config.tag];
+    let itemTags = item.tags?this.config.tags.concat(item.tags.map(tag => tag.charAt(0).toUpperCase() + tag.slice(1))):this.config.tags;
 
     mdArray.push({
       meta: {
