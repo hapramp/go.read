@@ -22,9 +22,19 @@ tags:
 
 ## Art Challenge Contributors
 
+* [Vinita Varier](https://www.instagram.com/that.crazy.doodler/)
+* [Hastkari](https://www.instagram.com/hast_kari/)
 * Shrishti Mishra
 * Jazbart
-* 
+* [Kshitija ](https://www.instagram.com/artandstuffbyksh/)
+* [Larry Goodman](https://instagram.com/petportraitsbylarry)
+* [Maria](https://instagram.com/mariamixmeart)
+* [Sucharita Basu](http://instagram.com/art_sucharita)
+* [Taraash](instagram.com/taraashbyrg)
+* [Pallavi Goyal](https://www.instagram.com/kalaavi_by_pallavi/)
+* [Priyanka Sharma](https://www.instagram.com/priyankapaints/)
+* [Radhika](https://www.instagram.com/impulsive.artist/)
+* [ᴀɴᴜꜱʜʀᴇᴇ ʜᴀʀᴅᴇ](https://www.instagram.com/artunplugged_/)
 
 ## Writing Challenge Contributors
 
@@ -36,20 +46,12 @@ tags:
 * [Ishaaa Chaudhari](https://www.instagram.com/ishaachaudhari/)
 * [Zainab Saleem](https://www.instagram.com/zeeewrites/)
 
-## Design Challenge Contributors
-
-* Parul Bindal
-* Anshul Dawar
-* Sunny Sanklecha
-
 \_\_\_\_\_\_\_\_\_\_\_\__
 
 # How to contribute creative challenges on GoSocial?
 
-We'll keep updating these points.
+Fill up this form to contribute your challenges in Art, Writing, or Photography: [Contribute Challenge](https://docs.google.com/forms/d/e/1FAIpQLSf4n1x4gRNjB4jz2XVxV6GMyoltMCbu6ccIOR0uY3rO8yH3mA/viewform).
 
 \_\_\_\_\_\_\_\_\_\_\_\__
 
-We update this blog every week to include new contributors.
-
-\[In progress]
+We'll update this list of a regular basis.
