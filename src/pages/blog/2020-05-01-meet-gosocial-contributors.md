@@ -31,6 +31,11 @@ tags:
 * [Haranish Mehta](https://www.instagram.com/haranish.hrf)
 * [Arvind Sharma](https://www.instagram.com/_incredibleshots/)
 * [Rahul Singi](https://www.instagram.com/photowale.bapu/)
+* [Avijit Bosu Roy](https://www.instagram.com/sadakchhap_photographer/)
+* [Rohit Shelar](https://www.instagram.com/photo.baba/)
+* [Abhinav Chitransh](https://www.instagram.com/travelkarpranav/)
+* [Anukul](https://www.instagram.com/fotoguy_anukool)
+* [Aashna Dhiman](https://www.instagram.com/selfawsh)
 
 ## Art Challenge Contributors
 
