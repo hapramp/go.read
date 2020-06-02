@@ -28,7 +28,13 @@ tags:
 
 ## Writing Challenge Contributors
 
-* 
+* [Japleen Kaur](http://instagram.com/millennialladki)
+* [Parvathy](http://instagram.com/paro.__)
+* [Ranjini Iyer](http://instagram.com/worthy_wordsmith)
+* [Simran Khanuja](http://instagram.com/_thespilledink)
+* [Aparna Upadhyay](http://instagram.com/aparnaupadhyay)
+* [Ishaaa Chaudhari](https://www.instagram.com/ishaachaudhari/)
+* [Zainab Saleem](https://www.instagram.com/zeeewrites/)
 
 ## Design Challenge Contributors
 
