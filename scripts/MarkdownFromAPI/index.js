@@ -31,6 +31,31 @@ json2md.converters.youtube = function(youtubeId, json2md) {
   return `[![Youtube Video](https://img.youtube.com/vi/${youtubeId}/0.jpg)](https://www.youtube.com/watch?v=${youtubeId})`
 }
 
+const getDeepLink = (item, slug) => {
+  let blogUrl = `https://getgosocial.app/blog/${slug}`
+  let pageLinkUrl = 'https://gosocial.page.link/';
+  let apn  = 'com.go.social.prod';
+  let st = item.content_json.title;
+  let sd = item.content_json.segments[0].content;
+  let si = item.banner_url;
+  let utm_medium='blog';
+  let utm_source='Landing Page'
+
+  // Build Url
+  const deeplinkUrl = new URL(pageLinkUrl);
+
+  deeplinkUrl.searchParams.append('link',`${blogUrl}/?appRoute=/challenges/${item.id}`);
+  deeplinkUrl.searchParams.append('apn',apn);
+  deeplinkUrl.searchParams.append('st',st);
+  deeplinkUrl.searchParams.append('sd',sd);
+  deeplinkUrl.searchParams.append('si',si);
+  deeplinkUrl.searchParams.append('utm_medium',utm_medium);
+  deeplinkUrl.searchParams.append('utm_source',utm_source);
+
+  return deeplinkUrl.href;
+
+}
+
 
 module.exports = class MarkdownFromAPI {
   constructor(config) {
@@ -67,7 +92,7 @@ module.exports = class MarkdownFromAPI {
     const timeStamp = blog.created_at
     const title = blog.title
     let date =  blog.created_at?new Date(timeStamp):new Date();
-    let slugPrefix = `${date.getFullYear()}-${("0" + date.getMonth()).slice(-2)}-${("0" + (date.getDate() + 1)).slice(-2)}`
+    let slugPrefix = `${date.getFullYear()}-${("0" + (date.getMonth() + 1)).slice(-2)}-${("0" + date.getDate()).slice(-2)}`
     return `${slugPrefix}-${slugify(title, { remove: /[*+~.()'"!:@/#]/g })}`;
   }
 
@@ -90,7 +115,7 @@ module.exports = class MarkdownFromAPI {
 
     segments.slice(1).map(segmentItem => mdArray.push(this.getCorrectMarkdownObject(segmentItem)))
 
-    mdArray.push({ link: { title: 'Participate on GoSocial App', source: 'https://play.google.com/store/apps/details?id=com.go.social.prod' } })
+    mdArray.push({ link: { title: 'Participate on GoSocial App', source: getDeepLink(item, this.getBlogSlug(item)) } })
 
     return mdArray;
   }
