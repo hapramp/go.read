@@ -2,12 +2,14 @@ module.exports = {
   siteMetadata: {
     title: 'Go.Read - Official Blog of GoSocialApp',
     description:'Discover new GoSocial contests and challenges. Find inspiration. And learn what’s new on the GoSocial App.',
-    tags:'GoSocial App, Photography, writing, contests, challenges, learn, design, photography contests, writing contests, photography challenge, writing challenge, learn creative writing, creative writing, Get GoSocial, GoSocial Contests, GoSocial Challenge'
-    },
+    tags:'GoSocial App, Photography, writing, contests, challenges, learn, design, photography contests, writing contests, photography challenge, writing challenge, learn creative writing, creative writing, Get GoSocial, GoSocial Contests, GoSocial Challenge',
+    siteUrl: `http://getgosocial.app/`  
+  },
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-postcss',
     'gatsby-plugin-sass',
+    'gatsby-plugin-sitemap',
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: 'gatsby-source-filesystem',
