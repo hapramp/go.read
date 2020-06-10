@@ -17,7 +17,7 @@ class BlogRoll extends React.Component {
               className={`flex sm:block ${post.frontmatter.featuredpost
                 ? 'is-featured'
                 : ''}`}>
-              <header className="w-84 mr-4 sm:mr-0 sm:w-full">
+              <header className="w-84 mr-4 sm:mr-0 sm:w-full flex-1">
                 <Link to={post.fields.slug}>
                 {post.frontmatter.featuredimage || post.frontmatter.bannerimage
                   ? (
@@ -43,7 +43,7 @@ class BlogRoll extends React.Component {
                   </Link>
                 </div>
                 <p className="mt-2">
-                  {post.excerpt}
+                  <span className="mr-2">{post.excerpt}</span>
                   <Link className="text-primary inline-block" to={post.fields.slug}>
                     Keep Reading →
                 </Link>

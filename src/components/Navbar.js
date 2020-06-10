@@ -45,8 +45,11 @@ const Navbar = class extends React.Component {
       >
         <div className="max-w-container px-4 xl:px-0 ml-auto mr-auto flex justify-between">
           <div className="flex items-center">
+            <Link to="/" className="" title="Logo">
+              <div className="font-bold sm:font-black italic text-xl md:text-2xl lg:text-3xl uppercase text-primary ">GO.SOCIAL</div>
+            </Link>
             <Link to="/blog" className="" title="Logo">
-              <div className="font-bold sm:font-black italic text-xl md:text-2xl lg:text-3xl uppercase text-primary">Go.READ</div>
+              <div className="font-bold sm:font-black italic text-xl md:text-2xl lg:text-3xl uppercase gray-70 ml-2">Blog</div>
             </Link>
           </div>
 

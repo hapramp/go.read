@@ -10,6 +10,7 @@ body {
 
 .blog-card-content {
   word-break: break-word;
+  flex:2
 }
 
 .about-dots {
