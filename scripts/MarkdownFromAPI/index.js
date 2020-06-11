@@ -23,6 +23,7 @@ description: ${desc}
 featuredpost: false
 featuredimage: null
 bannerimage: ${meta.banner_url}
+thumbimage: ${meta.thumb_url}
 tags:
 ${tagFormatted}\n---`
 }
@@ -103,13 +104,26 @@ module.exports = class MarkdownFromAPI {
     let mdArray = [];
     let itemTags = item.tags?this.config.tags.concat(item.tags.map(tag => tag.charAt(0).toUpperCase() + tag.slice(1))):this.config.tags;
 
+    let thumb_url = item.banner_url;
+    if (item.banner_image_variants && item.banner_image_variants.length) {
+      const sortedBanners = item.banner_image_variants.sort((a,b)=>a.width-b.width);
+      for (let i = 0; i < sortedBanners.length; i++) {
+        const variant = sortedBanners[i];
+        if (variant.width >= 320) {
+          thumb_url = variant.upload;
+          break;
+        }
+      }
+    }
+
     mdArray.push({
       meta: {
         title: `'${item.title}'`,
         created_at: item.created_at,
         desc: `'${segments[0].content}'`,
         banner_url: item.banner_url,
-        tags: itemTags
+        thumb_url,
+        tags: [...new Set(itemTags)]
       }
     })
 
@@ -130,10 +144,20 @@ module.exports = class MarkdownFromAPI {
     fetch(url)
       .then(data => data.json())
       .then(json => {
-        json.results.map(item => this.createChallengesMarkdownPost(item))
-
-        if (json.next)
-          return this.fetchChallenges(json.next)
+        return Promise.all(
+          json.results.map(item => {
+            if (item.content_json) {
+              return this.createChallengesMarkdownPost(item)
+            } else {
+              return fetch(`https://beta-api.hapramp.com/challenges/${item.id}`)
+              .then(response => response.json())
+              .then(fullItem => this.createChallengesMarkdownPost(fullItem))  
+            }
+          })  
+        ).then(() => {
+          if (json.next)
+            return this.fetchChallenges(json.next)
+        })
       })
       .catch(err => {
         console.log(err);

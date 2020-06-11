@@ -40,12 +40,12 @@ class TagRoute extends React.Component {
                       : ''}`}>
                     <header className="w-84 mr-4 sm:mr-0 sm:w-full flex-1">
                       <Link to={post.fields.slug}>
-                      {post.frontmatter.featuredimage || post.frontmatter.bannerimage
+                      {post.frontmatter.featuredimage || post.frontmatter.thumbimage
                         ? (
                           <div className="">
                             <PreviewCompatibleImage
                               imageInfo={{
-                                image: post.frontmatter.featuredimage?post.frontmatter.featuredimage:post.frontmatter.bannerimage,
+                                image: post.frontmatter.featuredimage?post.frontmatter.featuredimage:post.frontmatter.thumbimage,
                                 alt: `featured image thumbnail for post ${post.frontmatter.title}`
                               }} />
                           </div>
@@ -120,7 +120,7 @@ export const tagPageQuery = graphql`
             templateKey
             date(formatString: "MMMM DD, YYYY")
             featuredpost
-            bannerimage
+            thumbimage
             featuredimage {
               childImageSharp {
                 fluid(maxWidth: 400, quality: 100) {

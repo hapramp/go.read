@@ -55,19 +55,19 @@ const Navbar = class extends React.Component {
 
           <div className="hidden sm:flex">
             <Link className="font-black italic md:text-lg lg:text-xl flex items-center px-2 md:px-4" to="/tags/contest/">
-              <img className="mr-2 hidden md:block" src={contestIcon} alt=""/>
+              <img className="mr-2 hidden lg:block" src={contestIcon} alt=""/>
               Contests
             </Link>
             <Link className="font-black italic md:text-lg lg:text-xl flex items-center px-2 md:px-4" to="/tags/challenge/">
-              <img className="mr-2 hidden md:block" src={challengesIcon} alt=""/>
+              <img className="mr-2 hidden lg:block" src={challengesIcon} alt=""/>
               Challenges
             </Link>
             <Link className="font-black italic md:text-lg lg:text-xl flex items-center px-2 md:px-4" to="/tags/general/">
-              <img className="mr-2 hidden md:block" src={blogIcon} alt=""/>
+              <img className="mr-2 hidden lg:block" src={blogIcon} alt=""/>
               General
             </Link>
             <Link className="font-black italic md:text-lg lg:text-xl flex items-center px-2 md:px-4" to="/tags/announcement">
-              <img className="mr-2 hidden md:block" src={announcementIcon} alt=""/>
+              <img className="mr-2 hidden lg:block" src={announcementIcon} alt=""/>
               Announcements
             </Link>
           </div>

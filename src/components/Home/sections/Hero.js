@@ -42,11 +42,11 @@ const Hero = (props) => {
                 width="42"
                 height="42"
                 xmlns="http://www.w3.org/2000/svg">
-                <g transform="translate(1 1)" fill="none" fill-rule="evenodd">
+                <g transform="translate(1 1)" fill="none" fillRule="evenodd">
                   <circle stroke="#FFF" cx="20" cy="20" r="20"/>
                   <path
                     fill="#FFF"
-                    fill-rule="nonzero"
+                    fillRule="nonzero"
                     d="M12.707 15.293l-1.414 1.414L20 25.414l8.707-8.707-1.414-1.414L20 22.586z"/>
                 </g>
               </svg>

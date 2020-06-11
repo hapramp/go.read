@@ -19,12 +19,12 @@ class BlogRoll extends React.Component {
                 : ''}`}>
               <header className="w-84 mr-4 sm:mr-0 sm:w-full flex-1">
                 <Link to={post.fields.slug}>
-                {post.frontmatter.featuredimage || post.frontmatter.bannerimage
+                {post.frontmatter.featuredimage || post.frontmatter.thumbimage
                   ? (
-                    <div className="">
+                    <div className="blogroll-thumb">
                       <PreviewCompatibleImage
                         imageInfo={{
-                          image: post.frontmatter.featuredimage?post.frontmatter.featuredimage:post.frontmatter.bannerimage,
+                          image: post.frontmatter.featuredimage?post.frontmatter.featuredimage:post.frontmatter.thumbimage,
                           alt: `featured image thumbnail for post ${post.frontmatter.title}`
                         }} />
                     </div>
@@ -75,6 +75,6 @@ BlogRoll.propTypes = {
 
 export default () => (
   <StaticQuery
-    query={graphql` query BlogRollQuery { allMarkdownRemark( sort: { order: DESC, fields: [frontmatter___date] } filter: { frontmatter: { templateKey: { eq: "blog-post" } } } ) { edges { node { excerpt(pruneLength: 100) id fields { slug } frontmatter { title tags templateKey date(formatString: "MMMM DD, YYYY") featuredpost bannerimage featuredimage { childImageSharp { fluid(maxWidth: 400, quality: 100) { ...GatsbyImageSharpFluid } } } } } } } } `}
+    query={graphql` query BlogRollQuery { allMarkdownRemark( sort: { order: DESC, fields: [frontmatter___date] } filter: { frontmatter: { templateKey: { eq: "blog-post" } } } ) { edges { node { excerpt(pruneLength: 100) id fields { slug } frontmatter { title tags templateKey date(formatString: "MMMM DD, YYYY") featuredpost thumbimage featuredimage { childImageSharp { fluid(maxWidth: 400, quality: 100) { ...GatsbyImageSharpFluid } } } } } } } } `}
     render={(data, count) => <BlogRoll data={data} count={count} />} />
 )

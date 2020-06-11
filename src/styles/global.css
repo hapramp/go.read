@@ -27,6 +27,10 @@ main.content {
   margin-top: 77px;
 }
 
+.blogroll-thumb img {
+  min-width: 100%;
+}
+
 @media screen and (max-width:1024px) {
   .cta-dots {
     right: 24px;
