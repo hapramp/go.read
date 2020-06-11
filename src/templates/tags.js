@@ -38,7 +38,7 @@ class TagRoute extends React.Component {
                     className={`flex sm:block ${post.frontmatter.featuredpost
                       ? 'is-featured'
                       : ''}`}>
-                    <header className="w-84 mr-4 sm:mr-0 sm:w-full">
+                    <header className="w-84 mr-4 sm:mr-0 sm:w-full flex-1">
                       <Link to={post.fields.slug}>
                       {post.frontmatter.featuredimage || post.frontmatter.bannerimage
                         ? (
