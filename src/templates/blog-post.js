@@ -118,7 +118,7 @@ const BlogPost = ({ data }) => {
             <meta property="og:image" content={image} />
             <meta
               property="og:url"
-              content={`https://getgosocial.app/blog/${getBlogSlug(date,title)}`}
+              content={`https://getgosocial.app/blog/${getBlogSlug(date,title)}/`}
             />
             {date}{title}
             <meta property="og:site_name" content="GoSocial Blog" />
