@@ -3,9 +3,22 @@ import PropTypes from 'prop-types'
 import { kebabCase } from 'lodash'
 import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
+import slugify from "slugify";
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+
+
+const getBlogSlug = (created_at, title) => {
+   const timeStamp = created_at;
+  
+   let date = created_at ? new Date(timeStamp) : new Date();
+   let slugPrefix = `${date.getFullYear()}-${(
+     "0" +
+     (date.getMonth() + 1)
+   ).slice(-2)}-${("0" + date.getDate()).slice(-2)}`;
+   return `${slugPrefix}-${slugify(title, { remove: /[*+~.()'"!:@/#]/g })}`;
+};
 
 export const BlogPostTemplate = ({
   content,
@@ -75,6 +88,7 @@ const BlogPost = ({ data }) => {
   const description = post.frontmatter.description;
   const title = post.frontmatter.title;
   const image = post.frontmatter.featuredimage?'https://getgosocial.app'+post.frontmatter.featuredimage.childImageSharp.fluid.src:post.frontmatter.bannerimage;
+  const date = post.frontmatter.date;
 
   return (
     <Layout>
@@ -82,15 +96,17 @@ const BlogPost = ({ data }) => {
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
-        featuredimage={post.frontmatter.featuredimage?post.frontmatter.featuredimage:post.frontmatter.bannerimage}
+        featuredimage={
+          post.frontmatter.featuredimage
+            ? post.frontmatter.featuredimage
+            : post.frontmatter.bannerimage
+        }
         date={post.frontmatter.date}
+
         helmet={
           <Helmet titleTemplate="%s | GoSocial Blog">
             <title>{`${title}`}</title>
-            <meta
-              name="description"
-              content={`${description}`}
-            />
+            <meta name="description" content={`${description}`} />
             <meta name="image" content={image} />
 
             <meta itemprop="name" content={title} />
@@ -100,23 +116,26 @@ const BlogPost = ({ data }) => {
             <meta property="og:title" content={title} />
             <meta property="og:description" content={description} />
             <meta property="og:image" content={image} />
-            <meta property="og:url" content="https://getgosocial.app/blog" />
+            <meta
+              property="og:url"
+              content={`https://getgosocial.app/blog/${getBlogSlug(date,title)}`}
+            />
+            {date}{title}
             <meta property="og:site_name" content="GoSocial Blog" />
             <meta property="og:type" content="website" />
 
-            <meta property="twitter:card" content="summary_large_image" /> 
+            <meta property="twitter:card" content="summary_large_image" />
             <meta property="twitter:site" content="GoSocial Blog" />
             <meta property="twitter:title" content={title} />
             <meta property="twitter:description" content={description} />
             <meta property="twitter:image" content={image} />
-
           </Helmet>
         }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
       />
     </Layout>
-  )
+  );
 }
 
 BlogPost.propTypes = {
