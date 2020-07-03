@@ -10,7 +10,8 @@ featuredpost: true
 featuredimage: /img/become-an-artist.jpg
 tags:
   - GoSocial
-  - art
+  - Art
+  - Artists
 ---
 Are you a creative person who loves making original and beautiful pieces of art? Do you doodle whenever you can, because it’s your favorite way to spend time? Do you want to become an artist full-time?
 
