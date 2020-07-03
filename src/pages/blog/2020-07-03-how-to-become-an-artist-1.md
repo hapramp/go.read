@@ -8,12 +8,7 @@ featuredpost: true
 featuredimage: /img/become-an-artist.jpg
 tags:
   - GoSocial
-  - social media for artists
-  - GoSocial for artists
   - art
-  - Get GoSocial
-  - GoSocial Challenge
-  - GoSocial Contests
 ---
 Are you a creative person who loves making original and beautiful pieces of art? Do you doodle whenever you can, because it’s your favorite way to spend time? Do you want to become an artist full-time?
 
@@ -71,7 +66,7 @@ So, you’ve finally become an artist. However, so far, you have only laid the g
 * Make business cards to launch your art career to the next level.
 * Take your work to art galleries and working professionals in your art domain. Present yourself as a talented professional, and be prepared to promote your art.
 * Networking is the key to become an artist. Connect with other artists and get their valuable feedback on how to become a better artist. A good social network can give you immense exposure and even grow your client base. The earlier mentioned apps in the article open up such avenues for you. Some of them even reward you for your content and allow you to build a strong community and following. Here, it’s all about you and your art.
-* Set a price for your pieces and start selling them. You can do so in art galleries and exhibitions. Online galleries like Vango and ArtFinder, also extend such opportunities.
+* Set a price for your pieces and start selling them. You can do so in art galleries and exhibitions. Online galleries like Vango and ArtFinder also extend such opportunities.
 * There are many different art career options to choose from after this point. You can be an influencer. You can even set up your own blog or YouTube channel. You can teach classes and share your learnings with young aspiring artists.
 
 And there you have it! The six sure-fire steps that will help you become an artist. These steps may seem sort of overwhelming to take in as a new artist. It does involve a lot of hard work and dedication, but you know that it will be worth it in the end when you’ve finally made it. Good things take time and becoming an artist is no different. But, to live your passion and do what you love, while also making a lot of money from it is a dream come true. Don’t wait around anymore thinking about your dream. Get started now and make it your reality. Good luck with your art journey!
