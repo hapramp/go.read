@@ -22,7 +22,7 @@ A very efficient way to combat this is by taking challenges. The best part about
 
 The web is swarming with many challenges. For your ease, we have created a list of the 10 best creative art challenges that you must take.
 
-**1. Inktober**
+**1. Inktober**
 
 [Inktober ](https://inktober.com/)is the most well known on our list of art challenges. Artist Jake Parker designed it in 2009. The idea was to improve his inking skills and to develop productive drawing habits using a fun way. He shared his method with other artists and invited them to join him. Soon, it became one of the most popular art challenges among the art communities all over the world.
 
@@ -34,7 +34,7 @@ You have to make your drawings in ink and post them on any social media platform
 
 The best part about Inktober is that the rules suit the lifestyle of artists , and help them get better. Because of its flexible guidelines, Inktober is one of the best art challenges for beginners. You can choose to take it whenever you want and work on the prompts of your liking. You can even ink on digital mediums, which is a cool improvisation for the digital art creators out there.
 
-**2. Food Art Challenge**
+**2. Food Art Challenge**
 
 This is one of the most interesting art challenges you can take. Food and art have complemented each other for centuries. And what can be a better way to make a glorious piece of art that you can relish afterward?
 
@@ -44,9 +44,9 @@ Give your food a new dimension. You can make it look like a character, a landsca
 
 The Food Art Challenge is hosted on GoSocial. [GoSocial ](https://www.getgosocial.app/)is a social media app for artists. Here, you can take challenges, track your, and build a community of like-minded artists.
 
-**3. Letter The Lyric**
+**3. Letter The Lyric**
 
-There is no doubt that music makes a lasting impression. The impact of the pair of good lyrics and melodious beats can be long-lasting. We have got a challenge for those who can resonate with that sentence.
+There is no doubt that music makes a lasting impression. The impact of the pair of good lyrics and melodious beats can be long-lasting. We have got a challenge for those who can resonate with that sentence.
 
 In this art challenge, you play with the lyrics of your choice. All you need for this are sketches and a piece of paper. Now pen down the lyrics that you have playing in your mind in your choice of typography. This art challenge is a great way of understanding the authority of texts and drama of fonts.
 
@@ -54,29 +54,29 @@ You could also put your own spin on it. Instead of regular sketches, use calligr
 
 This is definitely one of the best art challenges out there. You can take this up as a filler, to do when bored or to lighten up your day and make something fabulous.
 
-**4. Draw This Again**
+**4. Draw This Again**
 
-Draw This Again is one of the finest art challenges that push you to test your limits. The concept behind this challenge is pretty simple. This art challenge gives you a way to think in a different way and redo a cherished masterpiece.
+Draw This Again is one of the finest art challenges that push you to test your limits. The concept behind this challenge is pretty simple. This art challenge gives you a way to think in a different way and redo a cherished masterpiece.
 
 Take any of your completed artwork from the past. This artwork can be an intense portrait, a goofy sketch, or your favorite character. We recommend choosing a picture that you drew during the initial stages of your journey as an artist. Now, draw the same thing again, and compare the two drawings side by side. You can add details or change the base colors.
 
 This is one of the best art challenges to highlight your progress over the years. This shows how you have learned from your mistakes. You can post the new artwork on Instagram with the hashtag #drawitagain. Or keep it to yourself as a private mark sheet.
 
-**5. Watercolor Landscape Art Challenge**
+**5. Watercolor Landscape Art Challenge**
 
-This is a wonderful art challenge, which lets you get as creative as you can, while also learning a lot in the process. In the world of art, water is a master medium. Because of its transparency, it provides a soft glow to paint.
+This is a wonderful art challenge, which lets you get as creative as you can, while also learning a lot in the process. In the world of art, water is a master medium. Because of its transparency, it provides a soft glow to paint.
 
 Making watercolor art can be tricky. It takes time and practice to understand the brushwork and pigments. It is all about spontaneous, decisive strokes that you can’t undo.
 
 Taking the watercolor landscape art challenge will help you master the brush strokes. This will help you get the outcome you desire. This is one of the most popular art challenges in the art community. This is quite useful for beginners, mastering the techniques and skills required to paint a true masterpiece. You can find a version of it on [GoSocial](https://www.getgosocial.app/).
 
-**6. Coffee Art Challenge**
+**6. Coffee Art Challenge**
 
 This is one of the more offbeat art challenges to do at home. You may have seen latte art presented in a cup, but this is a fun twist on coffee art, in which you use coffee to paint on paper. Painting with coffee can be surprisingly fulfilling once you start.
 
 If you are a caffeine enthusiast, you may already know how to brew your coffee to make different shades of color. If you’re new to coffee, that’s fine too. You can experiment with it by boiling black coffee or adding milk to lighten the tone. You can learn how to control the saturation and texture of the coffee to use it as paint.
 
-There are no set rules for this challenge. As long as you use coffee to paint a fascinating picture of your interest, you’re doing the challenge. You can take this art challenge solo or with a bunch of friends. Many artists post their coffee art on YouTube, explaining their journey. You can also share your journey with the [YouTube ](https://www.youtube.com/)community. You can also share it on Instagram, [GoSocial ](https://www.getgosocial.app/)and [DeviantArt](https://www.deviantart.com/).
+There are no set rules for this challenge. As long as you use coffee to paint a fascinating picture of your interest, you’re doing the challenge. You can take this art challenge solo or with a bunch of friends. Many artists post their coffee art on YouTube, explaining their journey. You can also share your journey with the [YouTube ](https://www.youtube.com/)community. You can also share it on [Instagram](https://www.instagram.com/), [GoSocial ](https://www.getgosocial.app/)and [DeviantArt](https://www.deviantart.com/).
 
 **7. Thirty Day Doodle Challenge**
 
@@ -86,7 +86,7 @@ For this challenge, you follow a list of 30 things you can doodle. You can choos
 
 You can also create a list of unrelated things that inspire you to doodle. These simple things keep you inspired to draw every day and have a good time doing it. This is one of the best art challenges for beginners. There are plenty of versions of this challenge on Pinterest. Some vary in days while others vary in prompts.
 
-**8. Abstract Art Challenge**
+**8. Abstract Art Challenge**
 
 Abstract art challenge can be quite inspiring and is a must-try. The best part about abstract art is that it can be anything you want it to be. It gives you the freedom to express yourself on a canvas and make it your own.
 
@@ -116,4 +116,4 @@ And there you have it! The top 10 art challenges that you can try. These [challe
 
 Community based social media platforms keep hosting these challenges. Some of these platforms like [GoSocial](https://www.getgosocial.app/), also help you track your practice and improvements in the most efficient way. Whichever platform you plan to stick to, remember to be consistent with your practice.
 
-_**Read also:**_ [Five Common Mistakes New Artists Make & How To Avoid Them](https://www.getgosocial.app/blog/2020-07-10-5-common-mistakes-new-artists-make-how-to-avoid-them/)
+**_Read also:_** [Five Common Mistakes New Artists Make & How To Avoid Them](https://www.getgosocial.app/blog/2020-07-10-5-common-mistakes-new-artists-make-how-to-avoid-them/)
