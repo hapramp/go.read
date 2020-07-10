@@ -60,7 +60,7 @@ Draw This Again is one of the finest art challenges that push you to test your l
 
 Take any of your completed artwork from the past. This artwork can be an intense portrait, a goofy sketch, or your favorite character. We recommend choosing a picture that you drew during the initial stages of your journey as an artist. Now, draw the same thing again, and compare the two drawings side by side. You can add details or change the base colors.
 
-This is one of the best art challenges to highlight your progress over the years. This shows how you have learned from your mistakes. You can post the new artwork on Instagram with the hashtag #drawitagain. Or keep it to yourself as a private mark sheet.
+This is one of the best art challenges to highlight your progress over the years. This shows how you have learned from your mistakes. You can post the new artwork on [Instagram ](https://www.instagram.com/)with the hashtag #drawitagain. Or keep it to yourself as a private mark sheet.
 
 **5. Watercolor Landscape Art Challenge**
 
@@ -116,4 +116,4 @@ And there you have it! The top 10 art challenges that you can try. These [challe
 
 Community based social media platforms keep hosting these challenges. Some of these platforms like [GoSocial](https://www.getgosocial.app/), also help you track your practice and improvements in the most efficient way. Whichever platform you plan to stick to, remember to be consistent with your practice.
 
-**_Read also:_** [Five Common Mistakes New Artists Make & How To Avoid Them](https://www.getgosocial.app/blog/2020-07-10-5-common-mistakes-new-artists-make-how-to-avoid-them/)
+_**Read also:**_ [Five Common Mistakes New Artists Make & How To Avoid Them](https://www.getgosocial.app/blog/2020-07-10-5-common-mistakes-new-artists-make-how-to-avoid-them/)
