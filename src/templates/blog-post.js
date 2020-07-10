@@ -3,22 +3,9 @@ import PropTypes from 'prop-types'
 import { kebabCase } from 'lodash'
 import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
-import slugify from "slugify";
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
-
-
-const getBlogSlug = (created_at, title) => {
-   const timeStamp = created_at;
-  
-   let date = created_at ? new Date(timeStamp) : new Date();
-   let slugPrefix = `${date.getFullYear()}-${(
-     "0" +
-     (date.getMonth() + 1)
-   ).slice(-2)}-${("0" + date.getDate()).slice(-2)}`;
-   return `${slugPrefix}-${slugify(title, { remove: /[*+~.()'"!:@/#]/g })}`;
-};
 
 export const BlogPostTemplate = ({
   content,
@@ -80,7 +67,8 @@ BlogPostTemplate.propTypes = {
   description: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
-}
+  slug: PropTypes.string,
+};
 
 const BlogPost = ({ data }) => {
   const { markdownRemark: post } = data;
@@ -89,6 +77,7 @@ const BlogPost = ({ data }) => {
   const title = post.frontmatter.title;
   const image = post.frontmatter.featuredimage?'https://getgosocial.app'+post.frontmatter.featuredimage.childImageSharp.fluid.src:post.frontmatter.bannerimage;
   const date = post.frontmatter.date;
+  const slug = post.fields.slug;
 
   return (
     <Layout>
@@ -118,7 +107,7 @@ const BlogPost = ({ data }) => {
             <meta property="og:image" content={image} />
             <meta
               property="og:url"
-              content={`https://getgosocial.app/blog/${getBlogSlug(date,title)}/`}
+              content={`https://getgosocial.app${slug}`}
             />
             {date}{title}
             <meta property="og:site_name" content="GoSocial Blog" />
@@ -151,6 +140,9 @@ export const pageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       id
       html
+      fields {
+        slug
+      }
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title
