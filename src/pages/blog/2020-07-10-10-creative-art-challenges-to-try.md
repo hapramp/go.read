@@ -42,7 +42,7 @@ The best way to do this is to cook any dish that you would like, no matter how c
 
 Give your food a new dimension. You can make it look like a character, a landscape, or even recreate a famous painting in your own unique style. The only rule is that everything on your plate must be edible. This is one of the most fun, creative, and fruitful art challenges that you can try at home. Go nuts with it! (Pun intended)
 
-The Food Art Challenge is hosted on GoSocial. [GoSocial ](https://www.getgosocial.app/)is a social media app for artists. Here, you can take challenges, track your, and build a community of like-minded artists.
+The [Food Art Challenge](https://getgosocial.app/blog/2020-05-16-Food-Art-Challenge/) is hosted on GoSocial. [GoSocial ](https://www.getgosocial.app/)is a social media app for artists. Here, you can take challenges, track your, and build a community of like-minded artists.
 
 **3. Letter The Lyric**
 
@@ -50,7 +50,7 @@ There is no doubt that music makes a lasting impression. The impact of the pair 
 
 In this art challenge, you play with the lyrics of your choice. All you need for this are sketches and a piece of paper. Now pen down the lyrics that you have playing in your mind in your choice of typography. This art challenge is a great way of understanding the authority of texts and drama of fonts.
 
-You could also put your own spin on it. Instead of regular sketches, use calligraphy pens or brush to frame the lyrics. Currently, [GoSocial ](https://www.getgosocial.app/)is hosting this challenge on its app. If you still don't know how to go about it, you can check out what other artists have created.
+You could also put your own spin on it. Instead of regular sketches, use calligraphy pens or brush to frame the lyrics. Currently, [GoSocial ](https://www.getgosocial.app/)is hosting [this challenge ](https://getgosocial.app/blog/2020-05-16-Letter-the-Lyric-Art-Challenge/)on its app. If you still don't know how to go about it, you can check out what other artists have created.
 
 This is definitely one of the best art challenges out there. You can take this up as a filler, to do when bored or to lighten up your day and make something fabulous.
 
@@ -68,7 +68,7 @@ This is a wonderful art challenge, which lets you get as creative as you can, wh
 
 Making watercolor art can be tricky. It takes time and practice to understand the brushwork and pigments. It is all about spontaneous, decisive strokes that you can’t undo.
 
-Taking the watercolor landscape art challenge will help you master the brush strokes. This will help you get the outcome you desire. This is one of the most popular art challenges in the art community. This is quite useful for beginners, mastering the techniques and skills required to paint a true masterpiece. You can find a version of it on [GoSocial](https://www.getgosocial.app/).
+Taking the watercolor landscape art challenge will help you master the brush strokes. This will help you get the outcome you desire. This is one of the most popular art challenges in the art community. This is quite useful for beginners, mastering the techniques and skills required to paint a true masterpiece. You can find a version of [this challenge](https://getgosocial.app/blog/2020-05-16-Watercolor-landscape-Art-Challenge/) on [GoSocial](https://www.getgosocial.app/).
 
 **6. Coffee Art Challenge**
 
@@ -76,7 +76,7 @@ This is one of the more offbeat art challenges to do at home. You may have seen 
 
 If you are a caffeine enthusiast, you may already know how to brew your coffee to make different shades of color. If you’re new to coffee, that’s fine too. You can experiment with it by boiling black coffee or adding milk to lighten the tone. You can learn how to control the saturation and texture of the coffee to use it as paint.
 
-There are no set rules for this challenge. As long as you use coffee to paint a fascinating picture of your interest, you’re doing the challenge. You can take this art challenge solo or with a bunch of friends. Many artists post their coffee art on YouTube, explaining their journey. You can also share your journey with the [YouTube ](https://www.youtube.com/)community. You can also share it on [Instagram](https://www.instagram.com/), [GoSocial ](https://www.getgosocial.app/)and [DeviantArt](https://www.deviantart.com/).
+There are no set rules for this challenge. As long as you use coffee to paint a fascinating picture of your interest, you’re doing the challenge. You can take the [coffee art challenge](https://getgosocial.app/blog/2020-06-24-Painting-with-Coffee-Art-Challenge/) solo or with a bunch of friends. Many artists post their coffee art on YouTube, explaining their journey. You can also share your journey with the [YouTube ](https://www.youtube.com/)community. You can also share it on [Instagram](https://www.instagram.com/), [GoSocial ](https://www.getgosocial.app/)and [DeviantArt](https://www.deviantart.com/).
 
 **7. Thirty Day Doodle Challenge**
 
@@ -92,7 +92,7 @@ Abstract art challenge can be quite inspiring and is a must-try. The best part a
 
 You can make use of any tools you like. For example, brushes, sponges, and even your fingers. Use acrylics, oil, or watercolor paints. All that matters is that you create a piece of abstract art. There are other aspects to abstract art, like texture, patterns, and meaning. Approach your blank canvas or sheet with a broad mind and use your artistic instincts to create.
 
-You can take this challenge on [GoSocial](https://www.getgosocial.app/). You will learn to tweak these formal qualities of art and create something exquisite.
+You can take the [abstract art challenge](https://getgosocial.app/blog/2020-06-19-Abstract-Art-Challenge/) on [GoSocial](https://www.getgosocial.app/). You will learn to tweak these formal qualities of art and create something exquisite.
 
 **9. Window Silhouette Challenge**
 
@@ -102,7 +102,7 @@ The smooth strokes of the pane that you paint can give you a sense of tranquil a
 
 This is a challenge that you can take on an individual level. Track your progress, and assign the number of days that you want to paint for. Many artists post their best window silhouettes on [Instagram ](https://www.instagram.com/)with the hashtag #windowsilhouette.
 
-You can also take part in this challenge on [GoSocial](https://www.getgosocial.app/).
+You can also take part in [this challenge](https://getgosocial.app/blog/2020-04-18-Window-Silhouette-Photography-Challenge//) on [GoSocial](https://www.getgosocial.app/).
 
 **10. ArtVsArtist**
 
@@ -116,4 +116,4 @@ And there you have it! The top 10 art challenges that you can try. These [challe
 
 Community based social media platforms keep hosting these challenges. Some of these platforms like [GoSocial](https://www.getgosocial.app/), also help you track your practice and improvements in the most efficient way. Whichever platform you plan to stick to, remember to be consistent with your practice.
 
-_**Read also:**_ [Five Common Mistakes New Artists Make & How To Avoid Them](https://www.getgosocial.app/blog/2020-07-10-5-common-mistakes-new-artists-make-how-to-avoid-them/)
+**_Read also:_** [Five Common Mistakes New Artists Make & How To Avoid Them](https://www.getgosocial.app/blog/2020-07-10-5-common-mistakes-new-artists-make-how-to-avoid-them/)
