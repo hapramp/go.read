@@ -94,7 +94,7 @@ module.exports = class MarkdownFromAPI {
     const title = blog.title
     let date =  blog.created_at?new Date(timeStamp):new Date();
     let slugPrefix = `${date.getFullYear()}-${("0" + (date.getMonth() + 1)).slice(-2)}-${("0" + date.getDate()).slice(-2)}`
-    return `${slugPrefix}-${slugify(title, { remove: /[*+~.()'"!:@/#]/g })}`;
+    return `${slugPrefix}-${slugify(title, { remove: /[*+~\[\].()'"!:@/#]/g })}`;
   }
 
 
