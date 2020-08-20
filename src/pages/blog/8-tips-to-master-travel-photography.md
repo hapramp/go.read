@@ -46,7 +46,7 @@ It goes without saying that good color composition makes your photos impressive.
 
 ![travel photography tip on GoSocial about color theory](/img/color-wheel-1.webp "How to use a color wheel in travel photography")
 
-\    **Image by** [**Canva**](https://www.canva.com/colors/color-wheel/)****
+\    _Image by_ [_Canva_](https://www.canva.com/colors/color-wheel/)
 
 Colors that are opposite to each other tend to work very well together. For example, let’s take blue and yellow. A deep blue sky can go great with a yellow building or sunflower or even outfit. Pink flowers in green fields. Orange sunset in a blue sky. There are plenty of different combinations presented to you by nature itself. Find contrasting colors in your surroundings to take pictures of. These colors don’t have to be equally distributed. Your picture can be one color with splashes of another complementary shade.
 
