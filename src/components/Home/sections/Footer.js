@@ -13,7 +13,7 @@ const Footer = () => {
           <li className="ml-6 mb-4"><Link to="/blog" >Blog</Link></li>
           <li className="ml-6 mb-4"><a href="https://www.facebook.com/getgosocialapp/" target="__new">Facebook</a></li>
           <li className="ml-6 mb-4"><a href="https://www.instagram.com/getgosocial.app/" target="__new">Instagram</a></li>
-          <li className="ml-6 mb-4"><a href="https://twitter.com/getgosocialapp" target="__new">Twitter</a></li>
+          <li className="ml-6 mb-4"><a href="https://twitter.com/gosocial_app" target="__new">Twitter</a></li>
           
           <li className="ml-6 mb-4"><a href="/privacy-policy.html" target="__new">Privacy Policy</a></li>
           <li className="ml-6 mb-4"><a href="/terms.html" target="__new">Terms</a></li>
