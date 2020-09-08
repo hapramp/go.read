@@ -7,7 +7,7 @@ description: >-
   world prefer. These social media platforms prove harmonious in creating and
   sharing art, building connections, and growing the art business online!
 featuredpost: true
-featuredimage: /img/7-best-social-media-apps-for-artists.jpg
+featuredimage: /img/7-best-social-media-apps-for-artists.png
 tags:
   - GoSocial
   - GoArt
