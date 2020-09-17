@@ -15,6 +15,7 @@ const CTA = () => {
         <p className="text-xl md:text-2xl mt-4">#CreateOnTheGo</p>
         <div className="mt-10 sm:mt-16">
           <a
+            rel="nofollow"
             href="https://docs.google.com/forms/d/e/1FAIpQLSf4n1x4gRNjB4jz2XVxV6GMyoltMCbu6ccIOR0uY3rO8yH3mA/viewform?usp=sf_link"
             className="text-white shadow sm:shadow-none mt-4 md:mt-0 flex-grow bg-primary py-4 px-6 rounded cursor-pointer"
             target="__new">

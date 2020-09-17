@@ -26,6 +26,7 @@ const Hero = (props) => {
 
             <div className="mt-16 flex sm:block flex-col sm:flex-row">
               <a
+                rel="nofollow"
                 href="https://play.google.com/store/apps/details?id=com.go.social.prod&referrer=utm_source%3Dgetgosocial.app%26utm_medium%3Dbutton%26utm_term%3Dget%252Bit%252Bon%252Bplaystore%26utm_campaign%3Dlanding_page"
                 className="text-white shadow sm:shadow-none mt-4 md:mt-0 flex-grow bg-primary py-4 px-6 rounded cursor-pointer"
                 target="__new"
@@ -47,6 +48,7 @@ const Hero = (props) => {
               </a>
 
               <a
+                rel="nofollow"
                 href="https://docs.google.com/forms/d/e/1FAIpQLScygrmIizhlszWnHMpmzJWHoznGO6Rk-v7g0Un6jZRGhkMihA/viewform?usp=sf_link"
                 className="sm:ml-4 text-primary shadow sm:shadow-none mt-4 md:mt-0 flex-grow bg-white py-4 px-6 rounded cursor-pointer"
                 target="__new"

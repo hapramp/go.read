@@ -15,6 +15,7 @@ const CTA = () => {
         <p className="text-xl md:text-2xl mt-4">Infinite aspirations, one motto</p>
         <div className="mt-10 sm:mt-16">
           <a
+            rel="nofollow"
             href="https://play.google.com/store/apps/details?id=com.go.social.prod&referrer=utm_source%3Dgetgosocial.app%26utm_medium%3Dbutton_cta%26utm_term%3Dget%252Bit%252Bon%252Bplaystore%26utm_campaign%3Dlanding_page"
             className="text-white shadow sm:shadow-none mt-4 md:mt-0 flex-grow bg-primary py-4 px-6 rounded cursor-pointer"
             target="__new">

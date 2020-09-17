@@ -53,6 +53,7 @@ const ContributorsList = () => {
           </div>
         </div>
         <a
+            rel="nofollow"
             href="https://docs.google.com/forms/d/e/1FAIpQLSf4n1x4gRNjB4jz2XVxV6GMyoltMCbu6ccIOR0uY3rO8yH3mA/viewform?usp=sf_link"
             className="inline-block text-white shadow sm:shadow-none flex-grow bg-primary py-3 px-6 rounded cursor-pointer"
             target="__new">

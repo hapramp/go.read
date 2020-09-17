@@ -23,7 +23,7 @@ const Steem = () => {
             <div>Got a Steem account?
             </div>
             <div>Try 1Ramp-Steem on
-              <a className="text-primary border-b-2 border-primary mx-2 whitespace-no-wrap" href="https://play.google.com/store/apps/details?id=com.hapramp&hl=en_IN" target="__new">Play Store</a>
+              <a rel="nofollow" className="text-primary border-b-2 border-primary mx-2 whitespace-no-wrap" href="https://play.google.com/store/apps/details?id=com.hapramp&hl=en_IN" target="__new">Play Store</a>
               and
               <a className="text-primary border-b-2 border-primary mx-2 whitespace-no-wrap" href="https://alpha.1ramp.io/feed/explore/" target="__new">Web.</a>
             </div>

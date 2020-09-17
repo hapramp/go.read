@@ -11,7 +11,7 @@ const Asteria = () => {
           <p className="text-xl mt-4">Asteria is a new standard to treat and store data with encryption that makes
             privacy and security accessible to all.
           </p>
-          <a className="uppercase text-xl border-b-2 border-primary mt-10" href="https://hapramp.com" target="__new">Learn More</a>
+          <a rel="nofollow" className="uppercase text-xl border-b-2 border-primary mt-10" href="https://hapramp.com" target="__new">Learn More</a>
         </div>
       </div>
     </section>
