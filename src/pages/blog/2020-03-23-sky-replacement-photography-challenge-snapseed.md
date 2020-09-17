@@ -13,22 +13,21 @@ Sky replacement is a cool and fun photo manipulation technique. It is also so ea
 
 We've curated a list of sky photos that you can use to take the "Sky Replacement Challenge":
 
-1. https://unsplash.com/photos/xYfhRemMRMY
 
-2. https://unsplash.com/photos/ebHCU8n7G38
+1. https://unsplash.com/photos/ebHCU8n7G38
 
-3. https://unsplash.com/photos/3YrppYQPoCI
+2. https://unsplash.com/photos/3YrppYQPoCI
 
-4. https://unsplash.com/photos/DuBNA1QMpPA
+3. https://unsplash.com/photos/DuBNA1QMpPA
 
-5. https://unsplash.com/photos/v9bnfMCyKbg
+4. https://unsplash.com/photos/v9bnfMCyKbg
 
-6. https://unsplash.com/photos/0juC5JIhPks
+5. https://unsplash.com/photos/0juC5JIhPks
 
-7. https://unsplash.com/photos/8DMuvdp-vso
+6. https://unsplash.com/photos/8DMuvdp-vso
 
-8. https://unsplash.com/photos/ln5drpv_ImI
+7. https://unsplash.com/photos/ln5drpv_ImI
 
-9. https://unsplash.com/photos/Knwea-mLGAg
+8. https://unsplash.com/photos/Knwea-mLGAg
 
-10. https://unsplash.com/photos/OtFKJf3MXXo
+9. https://unsplash.com/photos/OtFKJf3MXXo

@@ -46,7 +46,7 @@ One of the most common mistakes new artists make is not creating a schedule. The
 
 So, it doesn’t matter if you put in 10 hours only on one day learning everything you can. If you don’t practice often, you could lose your progress and be right back where you started.
 
-You can fix this by spending a few minutes every day to practice your art. Start with 15 to 30 minutes a day. This will help you much more than practicing for several hours and forgetting about it later. A great way to get rid of the common mistakes that new artists make is to take up art challenges. [Challenges](https://getgosocial.app/tags/challenge/) are a great way to reward yourself. You can find such challenges on the web with much ease. Another way to go about this is with the help of apps. One such app is [GoSocial](getgosocial.app). It hosts a range of interesting challenges that will help you stay consistent and inspired to create your art.
+You can fix this by spending a few minutes every day to practice your art. Start with 15 to 30 minutes a day. This will help you much more than practicing for several hours and forgetting about it later. A great way to get rid of the common mistakes that new artists make is to take up art challenges. [Challenges](https://getgosocial.app/tags/challenge/) are a great way to reward yourself. You can find such challenges on the web with much ease. Another way to go about this is with the help of apps. One such app is [GoSocial](https://getgosocial.app). It hosts a range of interesting challenges that will help you stay consistent and inspired to create your art.
 
 **3. Limited Learning**
 
@@ -60,7 +60,7 @@ A great way to do this is by interacting with other artists. Such conversations 
 
 There may be several reasons for you to not put your work out in the world. It's plausible to get nervous about people judging your art. Most new artists wait for their art to get polished or refined. But, keep in mind that you don’t have to strive for unrealistic levels of perfection. Don’t repeat the same mistakes that all new artists make.
 
-The first step to overcoming these insecurities is to believe in your art. Trust the process, and believe in the journey that you are on. Understand that getting your work out does not always invite criticism. It also opens the doors to appreciation and puts you in front of people who support you for what you are doing. You will get to know some cool new perspectives and receive suggestions on how to improve. Posting on platforms like [Instagram](instagram.com) and [GoSocial](getgosocial.app) will help you build a community.  This will help you in promoting your art and motivate you to become a better artist.
+The first step to overcoming these insecurities is to believe in your art. Trust the process, and believe in the journey that you are on. Understand that getting your work out does not always invite criticism. It also opens the doors to appreciation and puts you in front of people who support you for what you are doing. You will get to know some cool new perspectives and receive suggestions on how to improve. Posting on platforms like [Instagram](https://instagram.com) and [GoSocial](https://getgosocial.app) will help you build a community.  This will help you in promoting your art and motivate you to become a better artist.
 
 **5. Being a People Pleaser**
 

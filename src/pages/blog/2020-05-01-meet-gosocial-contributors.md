@@ -47,7 +47,7 @@ tags:
 * [Larry Goodman](https://instagram.com/petportraitsbylarry)
 * [Maria](https://instagram.com/mariamixmeart)
 * [Sucharita Basu](http://instagram.com/art_sucharita)
-* [Taraash](instagram.com/taraashbyrg)
+* [Taraash](https://instagram.com/taraashbyrg)
 * [Pallavi Goyal](https://www.instagram.com/kalaavi_by_pallavi/)
 * [Priyanka Sharma](https://www.instagram.com/priyankapaints/)
 * [Radhika](https://www.instagram.com/impulsive.artist/)

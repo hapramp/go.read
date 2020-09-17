@@ -96,15 +96,15 @@ There is a lot more to discuss about sky photography. This is a basic guide cont
 
 ## Take these photography Challenges to practise sky photography:
 
-**\-** [**Dramatic Sky - Photography Challenge**](https://getgosocial.app/blog/2019-10-20-Dramatic-Sky-Photography-Challenge/)****
+**\-** [**Dramatic Sky - Photography Challenge**](https://getgosocial.app/blog/2019-11-19-Dramatic-Sky-Photography-Challenge/)****
 
-**\-** [**"Clouds" - Photography Challenge**](https://getgosocial.app/blog/2019-11-05-Clouds-Photography-Challenge/)****
+**\-** [**"Clouds" - Photography Challenge**](https://getgosocial.app/blog/2020-07-22-Cloudscapes-Photography-Challenge/)****
 
-**\-** [**3 Days ’Sunset’ photography challenge**](https://getgosocial.app/blog/2020-00-31-3-Days-Sunset-photography-challenge/)****
+**\-** [**3 Days ’Sunset’ photography challenge**](https://getgosocial.app/blog/2020-01-30-Sunset-photography-challenge/)****
 
-**\-** [**The ’Silhouette’ photography challenge**](https://getgosocial.app/blog/2020-00-31-The-Silhouette-photography-challenge/)****
+**\-** [**The ’Silhouette’ photography challenge**](https://getgosocial.app/blog/2020-01-30-The-Silhouette-photography-challenge/)****
 
-**\-** [**“Sunrise/Sunset” - Photography Challenge**](https://getgosocial.app/blog/2019-11-05-Sunrise-Sunset-Photography-Challenge/)****
+**\-** [**“Sunrise/Sunset” - Photography Challenge**](https://getgosocial.app/blog/2019-12-04-Sunrise-Sunset-Photography-Challenge/)****
 
 ****
 

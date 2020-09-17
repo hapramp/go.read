@@ -38,13 +38,13 @@ Behance is a social media platform owned by Adobe. It is a brilliant platform fo
 
 Although its pricing has been considered a disadvantage by many, it is still a good social media platform for artists to be on.
 
-**4.** [**Pinterest**](www.pinterest.com)****
+**4.** [**Pinterest**](https://pinterest.com)****
 
  Pinterest is a visual platform that suits art sales and is a reputed social media app for artists. You can easily organize and save images into different boards for inspiration and potential client views. Artists can add their own descriptions to the images they “pin”. This is a splendid social media app for artists to form an emotional connection with their viewers and communicate with them through their art. You can drive massive traffic back to your own website by linking to it from your pinned images. 
 
 Pinterest does not require as much social interaction as other platforms do. In fact, you can sell directly with the help of “buyable pins”. One downside is that your reach isn’t as great as other social media. Also, aesthetic is the actual driver of the app. Even one or two low-quality pictures can turn away your potential buyers.
 
-**3.** [**Facebook**](www.facebook.com) 
+**3.** [**Facebook**](https://facebook.com) 
 
 Facebook is the biggest social network on the planet and could be the best social media platform for artists. You can share all sorts of posts to market your art including photos, videos, links, blogs, and podcasts. You can conveniently link to other social media for artists and share posts from Instagram, Twitter, and Pinterest. Similar to Instagram, you can avail a free business account to schedule your posts and save time. You can join and even create Facebook groups that serve as goldmines for tips and trends in the art business. This is a wonderful social media app for artists to put out their website links and artist statement to a wide, growing audience.
 
