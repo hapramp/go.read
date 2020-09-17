@@ -11,6 +11,12 @@ module.exports = {
     'gatsby-plugin-sass',
     'gatsby-plugin-sitemap',
     {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://getgosocial.app`,
+      },
+    },
+    {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: 'gatsby-source-filesystem',
       options: {
