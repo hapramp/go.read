@@ -2,9 +2,8 @@
 templateKey: blog-post
 title: 6 Ways To Be A More Productive Artist
 date: 2020-07-20T09:28:29.148Z
-description: >-
-  Here are six ways you can get inspired to create more art and learn how to be
-  a more productive artist!
+description: Here are six ways you can get inspired to create more art and learn
+  how to be a more productive artist!
 featuredpost: true
 featuredimage: /img/6-ways-to-be-a-more-productive-artist.jpg
 tags:
@@ -14,8 +13,6 @@ tags:
   - artist
   - general
 ---
-
-
 You are working as an artist and spending time with a profession that moves you. You are passionate about it and are striving to give it cent percent conviction. But now, you are struggling to be a more productive artist. 
 
 Productivity is imperative in any profession. Justifying the quality and quantity of your work is as important as creating it. But attaining the ideal case of productivity is not always easy.
@@ -24,7 +21,7 @@ Art block is a very real and discouraging hurdle that plenty of artists face. So
 
 So what are you supposed to do? How are you going to become a more productive artist? Well, worry not, as we have created a list of six effective ways that will help you achieve more productivity.
 
-_**Also read:**_ [5 Common Mistakes New Artists Make & How To Avoid Them](https://getgosocial.app/blog/2020-07-10-5-common-mistakes-new-artists-make-how-to-avoid-them/)
+***Also read:*** [5 Common Mistakes New Artists Make & How To Avoid Them](https://getgosocial.app/blog/2020-07-10-5-common-mistakes-new-artists-make-how-to-avoid-them/)
 
 **1.  Learn the art of time management**
 
@@ -63,6 +60,8 @@ You can take [this challenge and many more](https://getgosocial.app/tags/challen
 
 Another cool aspect of art challenges is that they are social. You get to see brilliant interpretations of one single prompt, posted by many other artists taking the same challenges as you. Taking art challenges is the best way to be a more productive artist by creating more art on a daily basis.
 
+If you are a new artist, challenges will help you learn to paint. By taking the challenges you set on a creative path, one defined by successors who have had similar experiences and have made similar mistakes. Challenges and prompts created by them coupled with their guidance will help you learn to paint faster.
+
 **4.    Clear your mind**
 
 Lingering thoughts and worries, add stress, and reduces focus. To become a more productive artist, you need to free your mind.
@@ -91,6 +90,4 @@ Remember to take breaks while you work. If you paint for 30 minutes, take a brea
 
 The best way to be a more efficient artist is knowing that you can’t spend too much time trying to perfect a piece of art. When you have created something good and you’ve spent a significant amount of time on it, wrap it up and relax.
 
-
-
-The standards of productivity are different for different artists. No two artists are the same. You need to find the level that suits you and does not take love away from art. It's great to want to become a more productive artist, but always remember why you started out. When you find what works best for you and keep practicing that, you will become a more efficient artist. Whatever be your way, remember to share your work and progress with your community. The best way to do this is by sharing your work on online platforms like GoSocial, Pinterest, and Instagram. Connect with art enthusiasts or share your work with other artists of your genre. These platforms will help you get the visibility that you are striving tirelessly for.
+The standards of productivity are different for different artists. No two artists are the same. You need to find the level that suits you and does not take love away from art. For an artist at the beginning of their journey, productivity may be defined by the speed at which they learn how to paint. While for a well-established artist productivity may come attached with some monetary value.It's great to want to become a more productive artist, but always remember why you started out. When you find what works best for you and keep practicing that, you will become a more efficient artist. Whatever be your way, remember to share your work and progress with your community. The best way to do this is by sharing your work on online platforms like GoSocial, Pinterest, and Instagram. Connect with art enthusiasts or share your work with other artists of your genre. These platforms will help you get the visibility that you are striving tirelessly for.
