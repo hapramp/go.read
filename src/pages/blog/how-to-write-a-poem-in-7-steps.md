@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: How To Write A Poem In 7 Steps
 date: 2020-09-01T05:12:18.343Z
-description: |2
+description: >2
    Poetry is meant to project an image or a visual story in the minds of your readers. For first-timers, writing a poem can be quite frightening. It is because poetry writing is confined under the limitations of many rules. However, if you just follow the rules, you won't be able to write a poem. It's overwhelmingly confusing. Poetry is meant to be strong and meaningful. But really, it is meant to be anything you want it to be.
 featuredpost: true
 featuredimage: /img/pexels-vlada-karpovich-4050286.jpg
@@ -18,14 +18,14 @@ If you have decided to learn how to write a poem, be cautioned that the first fe
 
 **1. Brainstorm For Ideas**
 
-The idea that gives rise to your entire poem may come out of nowhere. It could be a persistent thought or intriguing image that you can’t seem to stop thinking about. The next time you have an interesting thought, jot it down in a notebook or anywhere you like. Before you get into how to write a poem, here are some ways you can come up with some new ideas or develop on existing ones.
+Poetry writing ideas may come out of nowhere. It could be a persistent thought or intriguing image that you can’t seem to stop thinking about. The next time you have an interesting thought, jot it down in a notebook or anywhere you like. Before you get into how to write a poem, here are some ways you can come up with some new ideas or develop on existing ones.
 
 * Make a list of things you could write a poem about. It may be a situation or incident that taught you some unforgettable lessons. Or, it could be as simple as a bird you saw in the park earlier.
 * Start with one of these ideas, and create a mind map. Write down any branching ideas or images that you associate with the original idea. You can get as specific as you like with this part. You may even get an outstanding phrase or verse in a spontaneous thought.
 * Use writing prompts to stimulate your mind and get your creative wheels turning. There are several writing prompts to choose from online. You could try the “[Visual Writing Challenge](https://getgosocial.app/blog/2020-06-22-Visual-Writing-Challenge-Fabric/)”, “[Poetry on Hope](https://getgosocial.app/blog/2020-07-23-Poetry-On-Hope-Writing-Challenge/)” and many more.
 * This is more of a bonus point. Before you pen down the perfect poem, take some challenges. This exercise will help you refine your poetic repertoire. Expressing complex emotions like love on a paper can be a very daunting task. Challenges like “[Love Beyond Boundaries](https://getgosocial.app/blog/2020-07-01-Love-Beyond-Boundaries-Writing-Challenge/)” make it easy. You may even learn how to write a poem about love without even realizing it.
 
-_Read also:_ [8 Writing Challenges To Boost Your Creativity](https://getgosocial.app/blog/8-writing-challenges-to-boost-your-creativity/)
+*Read also:* [8 Writing Challenges To Boost Your Creativity](https://getgosocial.app/blog/8-writing-challenges-to-boost-your-creativity/)
 
 **2. Get Inspired To Write**
 
@@ -77,7 +77,7 @@ This is the last step towards a complete poem. In this stage, you could show you
 
 Use the feedback you receive to drop any lines that feel confusing or out of place. Although it is disappointing to have to cut out your favorite lines, you must look at the bigger picture. Every line of your poem has to contribute to your overall theme or idea. Remove any clichés or redundant phrases.
 
-_Read also_: [How To Improve Your Writing Skills  In 7 Easy Steps
+*Read also*: [How To Improve Your Writing Skills  In 7 Easy Steps
 ](https://getgosocial.app/blog/2020-07-16-how-to-improve-writing-skills-in-7-easy-steps/)
 
 Learning how to write a poem can be quite tricky and puzzling at times. But once you’ve practiced these steps, writing poetry will come naturally to you. A perfect poem is like an art. To master it, you must know the nuances and practice frequently. You can turn to platforms like [Instagram](https://instagram.com/), [GoSocial ](https://getgosocial.app/)and [Medium ](https://medium.com/)to get inspired. GoSocial allows you to take creative writing challenges and build a community of like-minded writers. You can use innovative prompts and get constructive feedback from your network.

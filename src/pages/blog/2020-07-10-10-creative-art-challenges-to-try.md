@@ -2,10 +2,9 @@
 templateKey: blog-post
 title: 10 Creative Art Challenges To Try
 date: 2020-07-10T13:57:25.609Z
-description: >-
-  Here is a list of the top 10 art challenges that will give you fresh and
-  innovative ideas for your art. These interesting challenges will get rid of
-  your art block and keep you inspired to create.
+description: Here is a list of the top 10 art challenges that will give you
+  fresh and innovative ideas for your art. These interesting challenges will get
+  rid of your art block and keep you inspired to create.
 featuredpost: true
 featuredimage: /img/art-challenges.jpg
 tags:
@@ -64,11 +63,11 @@ This is one of the best art challenges to highlight your progress over the years
 
 **5. Watercolor Landscape Art Challenge**
 
-This is a wonderful art challenge, which lets you get as creative as you can, while also learning a lot in the process. In the world of art, water is a master medium. Because of its transparency, it provides a soft glow to paint.
+This is a wonderful art challenge, which lets you get as creative as you can, while also learning a lot in the process. This challenge is also a simple watercolor inspiration.In the world of art, water is a master medium. Because of its transparency, it provides a soft glow to paint.
 
 Making watercolor art can be tricky. It takes time and practice to understand the brushwork and pigments. It is all about spontaneous, decisive strokes that you can’t undo.
 
-Taking the watercolor landscape art challenge will help you master the brush strokes. This will help you get the outcome you desire. This is one of the most popular art challenges in the art community. This is quite useful for beginners, mastering the techniques and skills required to paint a true masterpiece. You can find a version of [this challenge](https://getgosocial.app/blog/2020-05-16-Watercolor-landscape-Art-Challenge/) on [GoSocial](https://www.getgosocial.app/).
+Taking the watercolor landscape art challenge will help you master the brush strokes. This will help you get the outcome you desire. This is one of the most popular art challenges in the art community. This is quite useful for beginners, mastering the techniques and skills required to paint a true masterpiece. Once you are able to land a firm hand on the techniques of brushes, the challenge will double up as a simple watercolor inspiration. You can find a version of [this challenge](https://getgosocial.app/blog/2020-05-16-Watercolor-landscape-Art-Challenge/) on [GoSocial](https://www.getgosocial.app/).
 
 **6. Coffee Art Challenge**
 
@@ -116,4 +115,4 @@ And there you have it! The top 10 art challenges that you can try. These [challe
 
 Community based social media platforms keep hosting these challenges. Some of these platforms like [GoSocial](https://www.getgosocial.app/), also help you track your practice and improvements in the most efficient way. Whichever platform you plan to stick to, remember to be consistent with your practice.
 
-**_Read also:_** [Five Common Mistakes New Artists Make & How To Avoid Them](https://www.getgosocial.app/blog/2020-07-10-5-common-mistakes-new-artists-make-how-to-avoid-them/)
+***Read also:*** [Five Common Mistakes New Artists Make & How To Avoid Them](https://www.getgosocial.app/blog/2020-07-10-5-common-mistakes-new-artists-make-how-to-avoid-them/)
