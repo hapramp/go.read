@@ -7,3 +7,15 @@
   YARN_FLAGS = "--no-ignore-optional"
 [[plugins]]
   package = "netlify-plugin-gatsby-cache"
+
+[[redirects]]
+  from = "/blog"
+  to = "https://blog.gosocial.com"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/gosocial-challenge-contributors"
+  to = "https://blog.gosocial.com/contributors"
+  status = 200
+  force = true
