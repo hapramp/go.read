@@ -9,11 +9,21 @@
   package = "netlify-plugin-gatsby-cache"
 
 [[redirects]]
+  from = "/"
+  to = "https://blog.gosocial.io"
+
+[[redirects]]
   from = "/blog"
-  to = "https://blog.gosocial.com"
-  force = true
+  to = "https://blog.gosocial.io"
 
 [[redirects]]
   from = "/gosocial-challenge-contributors"
-  to = "https://blog.gosocial.com/contributors"
-  force = true
+  to = "https://blog.gosocial.io/contributors"
+
+[[redirects]]
+  from = "/privacy-policy.html"
+  to = "https://blog.gosocial.io/privacy-policy.html"
+
+[[redirects]]
+  from = "/gosocial-challenge-contributors"
+  to = "https://blog.gosocial.io/contributors"
