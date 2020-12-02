@@ -11,19 +11,24 @@
 [[redirects]]
   from = "/"
   to = "https://blog.gosocial.io"
+  force = true
 
 [[redirects]]
   from = "/blog"
   to = "https://blog.gosocial.io"
+  force = true
 
 [[redirects]]
   from = "/gosocial-challenge-contributors"
   to = "https://blog.gosocial.io/contributors"
+  force = true
 
 [[redirects]]
   from = "/privacy-policy.html"
   to = "https://blog.gosocial.io/privacy-policy.html"
+  force = true
 
 [[redirects]]
   from = "/gosocial-challenge-contributors"
   to = "https://blog.gosocial.io/contributors"
+  force = true
