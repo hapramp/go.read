@@ -10,7 +10,7 @@
 
 [[redirects]]
   from = "/"
-  to = "https://blog.gosocial.io"
+  to = "https://gosocial.io"
   force = true
 
 [[redirects]]
@@ -20,15 +20,15 @@
 
 [[redirects]]
   from = "/gosocial-challenge-contributors"
-  to = "https://blog.gosocial.io/contributors"
+  to = "https://about.gosocial.io/contributors"
   force = true
 
 [[redirects]]
   from = "/privacy-policy.html"
-  to = "https://blog.gosocial.io/privacy-policy.html"
+  to = "https://about.gosocial.io/privacy-policy.html"
   force = true
 
 [[redirects]]
   from = "/gosocial-challenge-contributors"
-  to = "https://blog.gosocial.io/contributors"
+  to = "https://about.gosocial.io/contributors"
   force = true
