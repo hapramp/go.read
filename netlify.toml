@@ -19,16 +19,122 @@
   force = true
 
 [[redirects]]
-  from = "/gosocial-challenge-contributors"
-  to = "https://about.gosocial.io/contributors"
-  force = true
-
-[[redirects]]
   from = "/privacy-policy.html"
   to = "https://about.gosocial.io/privacy-policy.html"
   force = true
 
 [[redirects]]
+  from = "/terms.html"
+  to = "https://about.gosocial.io/terms.html"
+  force = true
+
+[[redirects]]
   from = "/gosocial-challenge-contributors"
   to = "https://about.gosocial.io/contributors"
+  force = true
+
+  
+[[redirects]]  
+  from = "/2019-12-26-host-your-own-photography-challenges-on-gosocial"  
+  to = "https://blog.gosocial.io/host-your-own-photography-challenges-on-gosocial"  
+  force = true
+
+[[redirects]]  
+  from = "/2019-11-28-introducing-gosocial"  
+  to = "https://blog.gosocial.io/introducing-gosocial"  
+  force = true
+ 
+[[redirects]]  
+  from = "/2020-07-10-5-common-mistakes-new-artists-make-how-to-avoid-them"  
+  to = "https://blog.gosocial.io/common-mistakes-new-artists-make-how-to-avoid-them"  
+  force = true
+  
+[[redirects]]  
+  from = "/8-writing-challenges-to-boost-your-creativity"  
+  to = "https://blog.gosocial.io/8-writing-challenges-to-boost-your-creativity"  
+  force = true
+
+ [[redirects]]  
+  from = "/2020-07-20-6-ways-to-be-a-more-productive-artist"  
+  to = "https://blog.gosocial.io/ways-to-be-a-more-productive-artist"  
+  force = true
+  
+ [[redirects]]  
+  from = "/2019-12-26-host-your-own-photography-contest-giveaway-on-gosocial"  
+  to = "https://blog.gosocial.io/host-your-own-photography-contest-giveaway-on-gosocial"  
+  force = true
+
+[[redirects]]  
+  from = "/2019-12-18-flip-your-photos-on-gosocial"  
+  to = "https://blog.gosocial.io/host-your-own-photography-contest-giveaway-on-gosocial"  
+  force = true
+
+[[redirects]]  
+  from = "/6-ways-to-make-money-as-an-artist"  
+  to = "https://blog.gosocial.io/6-ways-to-make-money-as-an-artist"  
+  force = true
+
+[[redirects]]  
+  from = "/2020-07-13-10-creative-photography-challenges-that-you-must-try"  
+  to = "https://blog.gosocial.io/creative-photography-challenges-that-you-must-try"  
+  force = true
+
+[[redirects]]  
+  from = "/8-tips-to-master-travel-photography"  
+  to = "https://blog.gosocial.io/8-tips-to-master-travel-photography"  
+  force = true
+
+[[redirects]]  
+  from = "/7-best-social-media-platforms-for-artists"  
+  to = "https://blog.gosocial.io/7-best-social-media-platforms-for-artists"  
+  force = true
+
+[[redirects]]  
+  from = "/2020-07-10-10-creative-art-challenges-to-try"  
+  to = "https://blog.gosocial.io/creative-art-challenges-to-try"  
+  force = true
+
+[[redirects]]  
+  from = "/how-to-write-a-horror-story-in-5-steps"
+  to = "https://blog.gosocial.io/how-to-write-a-horror-story-in-5-steps"  
+  force = true
+
+[[redirects]]  
+  from = "/2019-12-19-gosocial-introducing-creative-challenges-designed-by-experts"
+  to = "https://blog.gosocial.io/gosocial-introducing-creative-challenges-designed-by-experts"  
+  force = true
+  
+[[redirects]]  
+  from = "/kickstart-your-learning-with-these-5-photography-challenges-for-beginners"
+  to = "https://blog.gosocial.io/kickstart-your-learning-with-these-5-photography-challenges-for-beginners"  
+  force = true
+  
+[[redirects]]  
+  from = "/2020-07-16-how-to-improve-writing-skills-in-7-easy-steps"
+  to = "https://blog.gosocial.io/how-to-improve-writing-skills-in-7-easy-steps"  
+  force = true
+  
+[[redirects]]  
+  from = "/gosocial-the-go-to-app-for-photographers"
+  to = "https://blog.gosocial.io/gosocial-the-go-to-app-for-photographers"  
+  force = true
+  
+[[redirects]]  
+  from = "/get-your-house-ready-for-great-diwali-photos"
+  to = "https://blog.gosocial.io/get-your-house-ready-for-great-diwali-photos"  
+  force = true
+  
+[[redirects]]  
+  from = "/2020-01-22-ultimate-guide-to-get-started-with-photography"
+  to = "https://blog.gosocial.io/ultimate-guide-to-get-started-with-photography"  
+  force = true
+  
+[[redirects]]  
+  from = "/2020-02-06-how-to-learn-photography-online"
+  to = "https://blog.gosocial.io/how-to-learn-photography-online"  
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "https://gosocial.io"
   force = true
