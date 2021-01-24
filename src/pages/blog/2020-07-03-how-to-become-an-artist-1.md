@@ -12,6 +12,7 @@ tags:
   - GoSocial
   - Art
   - Artists
+  - General
 ---
 Are you a creative person who loves making original and beautiful pieces of art? Do you doodle whenever you can, because it’s your favorite way to spend time? Do you want to become an artist full-time?
 
